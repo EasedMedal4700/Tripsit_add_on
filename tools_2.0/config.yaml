@@ -1,3 +1,20 @@
-# Configuration for TripSit Extraction
-max_substances: ALL  # Set to a number (e.g. 4) for debugging, "ALL" for full run, or ["DrugName"]
+scraping:
+  target_substances: "MATCH_DRUGS_JSON"
+  use_url_cache: true
+  cache_file: "data/erowid_urls_cache.json"
+  user_agent: "TripSit Drug Database Scraper (https://tripsit.me) - Volunteer"
+  max_workers: 8
+  sleep_min: 0.5
+  sleep_max: 1.5
+  max_reports_per_category: 1000
 
+parsing:
+  unknown_behavior: "log"
+
+paths:
+  progress_file: "data/progress.json"
+  temp_dir: "data/temp_doses"
+  output_dir: "data"
+  substance_links_file: "data/substances_erowid_links.json"
+  drugs_json_file: "../drugs.json"
+  missing_doses_file: "data/missing_doses.json"
