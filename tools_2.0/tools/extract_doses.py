@@ -3,16 +3,41 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import os
+import yaml
 from collections import defaultdict
 import math
 
+def load_config():
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    config_path = os.path.join(base_dir, 'config.yaml')
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            return yaml.safe_load(f)
+    return {}
+
 def load_erowid_links():
-    with open('../substances_erowid_links.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    path = os.path.join(base_dir, 'data', 'substances_erowid_links.json')
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    config = load_config()
+    max_sub = config.get('max_substances')
+    if isinstance(max_sub, int):
+        print(f"Limiting usage to first {max_sub} substances based on config.")
+        limited_data = {}
+        for i, (k, v) in enumerate(data.items()):
+            if i >= max_sub: break
+            limited_data[k] = v
+        return limited_data
+    
+    return data
 
 def load_drugs_json_order():
     try:
-        with open('../drugs.json', 'r', encoding='utf-8') as f:
+        base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        path = os.path.join(base_dir, 'drugs.json')
+        with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             order = []
             for k, v in data.items():
@@ -312,12 +337,14 @@ def main():
         if key not in sorted_formatted_data:
             sorted_formatted_data[key] = formatted_data[key]
 
-    # Save to tools/data/extracted_doses.json
-    os.makedirs('data', exist_ok=True)
-    with open('data/extracted_doses.json', 'w', encoding='utf-8') as f:
+    # Save to tools_2.0/data/extracted_doses.json
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    output_path = os.path.join(base_dir, 'data', 'extracted_doses.json')
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(sorted_formatted_data, f, indent=2, ensure_ascii=False)
     
-    print("Saved extracted doses to tools/data/extracted_doses.json")
+    print(f"Saved extracted doses to {output_path}")
 
 if __name__ == "__main__":
     main()

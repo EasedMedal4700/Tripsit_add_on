@@ -6,3 +6,4 @@ __pycache__/
 *.pdb
 tools/obj/
 tools/bin/
+tools_2.0/data/temp_doses/

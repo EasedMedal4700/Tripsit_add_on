@@ -1,0 +1,636 @@
+{
+  "2C-B": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "33.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "33.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "2C-I": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "12.0-25.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 4,
+          "distribution": {
+            "12.0 mg": 2,
+            "25.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "4-AcO-DMT": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "6.0-20.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "6.0 mg": 1,
+            "20.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "4-HO-DiPT": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "20.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "20.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "4-HO-MiPT": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "2.0-10.0 mg",
+        "Light": "10.0-15.0 mg",
+        "Common": "15.0-27.0 mg",
+        "Strong": "27.0-40.0 mg",
+        "Heavy": "40.0+ mg",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 66,
+          "distribution": {
+            "2.0 mg": 1,
+            "5.0 mg": 1,
+            "6.0 mg": 2,
+            "10.0 mg": 6,
+            "12.0 mg": 7,
+            "13.0 mg": 1,
+            "14.0 mg": 1,
+            "15.0 mg": 5,
+            "16.0 mg": 2,
+            "18.0 mg": 1,
+            "19.0 mg": 1,
+            "20.0 mg": 7,
+            "21.0 mg": 1,
+            "22.0 mg": 1,
+            "23.0 mg": 1,
+            "25.0 mg": 5,
+            "26.0 mg": 3,
+            "27.0 mg": 1,
+            "28.0 mg": 3,
+            "30.0 mg": 4,
+            "31.0 mg": 1,
+            "35.0 mg": 2,
+            "40.0 mg": 6,
+            "50.0 mg": 1,
+            "57.0 mg": 1,
+            "120.0 mg": 1
+          }
+        }
+      },
+      "insufflated": {
+        "Threshold": "3.0-4.0 mg",
+        "Light": "4.0-6.0 mg",
+        "Common": "6.0-15.0 mg",
+        "Strong": "15.0-20.0 mg",
+        "Heavy": "20.0+ mg",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 14,
+          "distribution": {
+            "3.0 mg": 1,
+            "4.0 mg": 1,
+            "6.0 mg": 3,
+            "9.0 mg": 1,
+            "10.0 mg": 1,
+            "12.0 mg": 2,
+            "15.0 mg": 2,
+            "20.0 mg": 2,
+            "130.0 mg": 1
+          }
+        }
+      },
+      "sublingual": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "1.0-25.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 3,
+          "distribution": {
+            "1.0 mg": 1,
+            "10.0 mg": 1,
+            "25.0 mg": 1
+          }
+        }
+      },
+      "rectal": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "16.0-28.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "16.0 mg": 1,
+            "28.0 mg": 1
+          }
+        }
+      },
+      "buccal": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "17.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "17.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "5-MeO-DMT": {
+    "formatted_dose": {
+      "smoked": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "8.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "8.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "5-MeO-MiPT": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "15.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "15.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "Allylescaline": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "25.0-27.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "25.0 mg": 1,
+            "27.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Diphenhydramine": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "25.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "25.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "DMT": {
+    "formatted_dose": {
+      "smoked": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "15.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "15.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Etizolam": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "5.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "5.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "Kratom": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "6.8-15.0 g",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 3,
+          "distribution": {
+            "6.8 g": 1,
+            "15.0 g": 2
+          }
+        }
+      }
+    }
+  },
+  "MDAI": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "150.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "150.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "Melatonin": {
+    "formatted_dose": {
+      "sublingual": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "1.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "1.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "MEM": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "48.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "48.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Methylone": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "250.0-300.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "250.0 mg": 1,
+            "300.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Mushrooms": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "1.0 g",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "1.0 g": 1
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Zopiclone": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "7.5 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "7.5 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "DXM": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "40.0-60.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 3,
+          "distribution": {
+            "40.0 mg": 1,
+            "60.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "ly": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "25.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "25.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Tianeptine": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "50.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "50.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Methoxetamine": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "50.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "50.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Clonazepam": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "1.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "1.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Diazepam": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "15.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 2,
+          "distribution": {
+            "15.0 mg": 2
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Zolpidem": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "25.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "25.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Etizolam 30 mg oral 4-HO-MiPT": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "2.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "2.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "AMT": {
+    "formatted_dose": {
+      "smoked": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "30.0 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "30.0 mg": 1
+          }
+        }
+      }
+    }
+  },
+  "Pharms - Triazolam": {
+    "formatted_dose": {
+      "oral": {
+        "Threshold": "",
+        "Light": "",
+        "Common": "0.25 mg",
+        "Strong": "",
+        "Heavy": "",
+        "Dangerous": "",
+        "Fatal": "Unknown",
+        "_stats": {
+          "total_reports": 1,
+          "distribution": {
+            "0.25 mg": 1
+          }
+        }
+      }
+    }
+  }
+}

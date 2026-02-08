@@ -1,2 +1,0 @@
-# Configuration for TripSit Extraction
-max_substances: 4  # Set to a number (e.g. 4) for debugging, or "ALL" for full run

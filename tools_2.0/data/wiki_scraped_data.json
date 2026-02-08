@@ -716,8 +716,8 @@
     "solubility": null,
     "synonyms": "NBOMe-2C-B; Cimbi-36; Nova; BOM 2-CB; ''N''-(2-Methoxybenzyl)-4-bromo-2,5-dimethoxyphenethylamine",
     "pronunciation": null,
-    "drug_class": "Serotonin 5-HT2 receptor agonist; Serotonergic psychedelic; Hallucinogen",
-    "routes_of_administration": "Sublingual, others",
+    "drug_class": "Serotonin 5-HT2 receptor agonist; Serotonin 5-HT2A receptor agonist; Serotonergic psychedelic; Hallucinogen",
+    "routes_of_administration": "Sublingual, buccal, intranasal",
     "atc_code": null,
     "pregnancy_category": null,
     "dependence_liability": null,
@@ -725,9 +725,9 @@
     "bioavailability": null,
     "protein_binding": null,
     "metabolism": null,
-    "metabolites": null,
-    "onset": "15\u2013120 minutes",
-    "duration": null,
+    "metabolites": "5-DM-25B-NBOMe",
+    "onset": "45\u201375 minutes or 15\u2013120 minutes",
+    "duration": "8\u201312 hours",
     "half_life": null,
     "excretion": null,
     "legal_status": {
@@ -5272,7 +5272,7 @@
     "bioavailability": "Oral: {{nowrap|~90%}}",
     "protein_binding": "{{nowrap|20%}}",
     "metabolism": "CYP2D6, DBH, FMO3",
-    "metabolites": "{{nowrap|4-hydroxyamphetamine}}, {{nowrap|4-hydroxynorephedrine}}, {{nowrap|4-hydroxyphenylacetone}}, benzoic acid, hippuric acid, norephedrine, phenylacetone",
+    "metabolites": "{{nowrap|4-hydroxyamphetamine}}, {{nowrap|4-hydroxynorephedrine}}, {{nowrap|4-hydroxyphenylacetone}}, {{nowrap|''N''-hydroxyamphetamine}}, benzoic acid, hippuric acid, norephedrine, phenylacetone",
     "onset": "{{abbr|IR|Immediate release}} dosing: {{nowrap|30\u201360}}&nbsp;minutes{{abbr|XR|Extended release}} dosing: {{nowrap|1.5\u20132}}&nbsp;hours",
     "duration": "{{abbr|IR|Immediate release}} dosing: {{nowrap|3\u20136}}&nbsp;hours {{abbr|XR|Extended release}} dosing: {{nowrap|8\u201312}}&nbsp;hours",
     "half_life": "{{nowrap|{{abbr|D-amph|dextroamphetamine}}}}: {{nowrap|9\u201311}}&nbsp;hours{{nowrap|{{abbr|L-amph|levoamphetamine}}}}: {{nowrap|11\u201314}}&nbsp;hourspH-dependent: {{nowrap|7\u201334}}&nbsp;hours",
@@ -6922,7 +6922,7 @@
     "melting_point": null,
     "boiling_point": null,
     "solubility": null,
-    "synonyms": null,
+    "synonyms": "1-(Benzofuran-6-yl)-''N''-ethylpropan-2-amine",
     "pronunciation": null,
     "drug_class": null,
     "routes_of_administration": null,
@@ -7753,21 +7753,21 @@
     "melting_point": null,
     "boiling_point": null,
     "solubility": null,
-    "synonyms": "Frisium, Onfi, Sympazan, Urbanyl, among others",
+    "synonyms": "Frisium, others",
     "pronunciation": null,
     "drug_class": "Benzodiazepine",
     "routes_of_administration": "By mouth",
     "atc_code": null,
     "pregnancy_category": "C",
-    "dependence_liability": "Physical: Very high Psychological: High",
+    "dependence_liability": "Very high",
     "addiction_liability": "High",
     "bioavailability": "87% (oral)",
     "protein_binding": "80\u201390%",
     "metabolism": "Liver",
-    "metabolites": "{{ubl| *''N''-desmethylclobazam *''4''-hydroxyclobazam *norclobazam}}",
+    "metabolites": "{{ubl| *''N''-desmethylclobazam *\u2022 norclobazam *\u2022 ''4''-hydroxyclobazam}}",
     "onset": "0.5\u20134 hours",
     "duration": null,
-    "half_life": "{{ubl| *clobazam: 36\u201342 hours *''N''-desmethylclobazam (norclobazam): 71\u201382 hours}}",
+    "half_life": "{{ubl| *\u2022 clobazam: 36\u201342 hours \u2022 norclobazam: 71\u201382 hours}}",
     "excretion": "{{ubl| *Kidney (82%) *Feces (11%)}}",
     "legal_status": {
       "legal_AU": "S4",
@@ -9126,7 +9126,8 @@
     "legal_status": {
       "legal_AU": "S2",
       "legal_CA": "OTC",
-      "legal_US": "OTC"
+      "legal_US": "OTC",
+      "legal_status": "SE: OTC"
     }
   },
   {
@@ -9489,14 +9490,14 @@
     "synonyms": "Cosylan, Diolan, Dionina, Diosan, Solvipect, Trachyl",
     "pronunciation": null,
     "drug_class": null,
-    "routes_of_administration": null,
+    "routes_of_administration": "Oral",
     "atc_code": null,
     "pregnancy_category": null,
     "dependence_liability": null,
     "addiction_liability": null,
     "bioavailability": null,
     "protein_binding": null,
-    "metabolism": null,
+    "metabolism": "Hepatic, specifically CYP2D6",
     "metabolites": null,
     "onset": null,
     "duration": null,
@@ -9509,7 +9510,8 @@
       "legal_US": "Schedule II",
       "legal_US_comment": "and Schedule III (In Combination Products)",
       "legal_DE": "Prescription only (Anlage II for higher doses)",
-      "legal_UN_comment": "Narcotic Schedule III"
+      "legal_UN_comment": "Narcotic Schedule III",
+      "legal_status": "SE: F\u00f6rteckning III"
     }
   },
   {
@@ -11271,7 +11273,7 @@
     "protein_binding": "Less than 3%",
     "metabolism": "Not significantly metabolized",
     "metabolites": null,
-    "onset": null,
+    "onset": "2-3 hours",
     "duration": null,
     "half_life": "5 to 7 hours",
     "excretion": "Kidney",
@@ -11281,7 +11283,7 @@
       "legal_CA": "Rx-only",
       "legal_UK": "Class C",
       "legal_US": "Schedule V controlled substance (Select States)",
-      "legal_status": "Rx-only"
+      "legal_status": "{{ubl |SE: Rx-only |In general: Prescription only }}"
     }
   },
   {
@@ -11707,7 +11709,7 @@
     "kegg": "D00326",
     "chebi": "5118",
     "chembl": "41",
-    "pdb_ligand": null,
+    "pdb_ligand": "RFX",
     "smiles": "CNCCC(c1ccccc1)Oc2ccc(cc2)C(F)(F)F",
     "inchi": "1S/C17H18F3NO/c1-21-12-11-16(13-5-3-2-4-6-13)22-15-9-7-14(8-10-15)17(18,19)20/h2-10,16,21H,11-12H2,1H3",
     "inchikey": "RTHCYVBBDHJXIQ-UHFFFAOYSA-N",
@@ -11715,7 +11717,7 @@
     "molar_mass": null,
     "melting_point": "179",
     "boiling_point": "395",
-    "solubility": "14",
+    "solubility": null,
     "synonyms": "Prozac, Sarafem, others",
     "pronunciation": null,
     "drug_class": "Selective serotonin reuptake inhibitor (SSRI)",
@@ -12645,7 +12647,7 @@
     "solubility": null,
     "synonyms": "{{abbr|3,4-MDMA|3,4-Methylenedioxymethamphetamine}}; Ecstasy (E, X, XTC); Midomafetamine; Molly; Mandy; Pingers/Pingas",
     "pronunciation": null,
-    "drug_class": "Entactogen; Stimulant; Psychedelic; Serotonin\u2013norepinephrine\u2013dopamine releasing agent; Serotonin 5-HT2 receptor agonist",
+    "drug_class": "Entactogen; Stimulant; Psychedelic; Serotonin\u2013norepinephrine\u2013dopamine releasing agent; 5-HT2 receptor agonist",
     "routes_of_administration": "Common: By mouth rectal",
     "atc_code": null,
     "pregnancy_category": null,
@@ -12772,7 +12774,7 @@
       "legal_UN": "P I",
       "legal_US": "Schedule I",
       "legal_DE": "Anlage I",
-      "legal_status": "Illicit drug"
+      "legal_status": "{{ubl | SE: F\u00f6rteckning I | Illicit drug }}"
     }
   },
   {
@@ -13745,7 +13747,7 @@
     "solubility": null,
     "synonyms": "{{nowrap|''N''-methylamphetamine}}, {{nowrap|''N'',\u03b1-dimethylphenethylamine}}, desoxyephedrine",
     "pronunciation": null,
-    "drug_class": "Substituted amphetamine Serotonin\u2013norepinephrine\u2013dopamine releasing agent",
+    "drug_class": "Stimulant; Serotonin\u2013norepinephrine\u2013dopamine releasing agent",
     "routes_of_administration": "By mouth, intravenous, intramuscular, subcutaneous, inhalation, insufflation, rectal, vaginal",
     "atc_code": null,
     "pregnancy_category": "X",
@@ -13754,7 +13756,7 @@
     "bioavailability": "Oral: 67%Intranasal: 79%Inhalation: 67\u201390%Intravenous: 100%",
     "protein_binding": "Varies widely",
     "metabolism": "CYP2D6 and FMO3",
-    "metabolites": "\u2022 Amphetamine \u2022 Pholedrine \u2022 N-Hydroxymethamphetamine",
+    "metabolites": "\u2022 Amphetamine \u2022 Pholedrine \u2022 ''N''-Hydroxymethamphetamine \u2022 Norephedrine",
     "onset": "Oral: 3{{nbsp}}hours (peak)Intranasal: Inhalation: Intravenous: <15{{nbsp}}minutes",
     "duration": "8\u201312{{nbsp}}hours",
     "half_life": "9\u201312{{nbsp}}hours (range 5\u201330{{nbsp}}hours); irrespective of route",
@@ -14573,7 +14575,7 @@
     "protein_binding": "~15% (\u00b15%) binds to plasma proteins",
     "metabolism": "Liver (80%) mostly CES1-mediated",
     "metabolites": "\u03b1-phenyl-2-piperidine acetic acid (ritalinic acid)",
-    "onset": "~20-60 minutes, depending on formulation",
+    "onset": "~20\u201360 minutes, depending on formulation",
     "duration": "{{ubl | {{abbr|IR|Immediate Release}} dosing: 3\u20134 hours | {{abbr|ER|Extended Release}} dosing: 8\u201312 hours }}",
     "half_life": "2\u20133 hours",
     "excretion": "Urine (90%)",
@@ -17097,7 +17099,7 @@
     "addiction_liability": "Low (but varying with dosage and route of administration)",
     "bioavailability": "Oral: \u226590%",
     "protein_binding": "<1%",
-    "metabolism": null,
+    "metabolism": "Less than 2% is metabolized",
     "metabolites": "N-methylpregabalin",
     "onset": "May occur within a week (pain)",
     "duration": "8\u201312 hours",
@@ -17111,7 +17113,7 @@
       "legal_UK": "Class C",
       "legal_US": "Schedule V",
       "legal_EU": "Rx-only",
-      "legal_status": "Rx-only"
+      "legal_status": "{{ubl | SE: F\u00f6rteckning V | In general: Prescription only }}"
     }
   },
   {

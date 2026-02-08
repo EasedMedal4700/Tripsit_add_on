@@ -7,6 +7,7 @@ from typing import Any, Dict, Optional, List
 
 import requests
 import mwparserfromhell
+import yaml
 
 # ----------------------------
 # Configuration
@@ -213,7 +214,7 @@ def build_tripsit_payload(title: str, params: Dict[str, str]) -> Dict[str, Any]:
 def main():
     # 1. Load drugs.json
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    drugs_path = os.path.join(script_dir, '../drugs.json')
+    drugs_path = os.path.join(script_dir, '../../drugs.json')
     
     print(f"Loading {drugs_path}...")
     try:
@@ -270,12 +271,25 @@ def main():
     # Filter out obvious junk if necessary
     target_names = [n for n in target_names if len(n) > 2]
 
+    # Check config for limit
+    config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '..\config.yaml')
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, 'r') as f:
+                config = yaml.safe_load(f)
+                max_sub = config.get('max_substances')
+                if isinstance(max_sub, int):
+                    print(f"Limiting to first {max_sub} substances based on config.")
+                    target_names = target_names[:max_sub]
+        except Exception as e:
+            print(f"Error reading config: {e}")
+
     print(f"Total Unique Targets to scrape: {len(target_names)}")
     
     results_list = []
     batch_size = 50
     
-    report_file = os.path.join(script_dir, 'wiki_scraped_data.json')
+    report_file = os.path.join(script_dir, '../data/wiki_scraped_data.json')
     
     start_time = time.time()
     
