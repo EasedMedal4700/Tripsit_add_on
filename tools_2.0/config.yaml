@@ -1,12 +1,12 @@
 scraping:
-  target_substances: "MATCH_DRUGS_JSON"
+  target_substances: ["DMT", "LSD", "MDMA", "2C-T-7"] # Debug with 2C-T-7
   use_url_cache: true
   cache_file: "data/erowid_urls_cache.json"
-  user_agent: "TripSit Drug Database Scraper (https://tripsit.me) - Volunteer"
-  max_workers: 8
+  user_agent: "TripSit Scraper"
+  max_workers: 4
   sleep_min: 0.5
   sleep_max: 1.5
-  max_reports_per_category: 1000
+  max_reports_per_category: 10
 
 parsing:
   unknown_behavior: "log"

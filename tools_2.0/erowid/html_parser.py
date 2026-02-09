@@ -6,7 +6,7 @@ class ReportParser:
         # Updated regex to include glass, lines, etc.
         self.dose_pattern = re.compile(
             r'(\d+(?:\.\d+)?)\s*' # Amount
-            r'(mg|g|ug|µg|ml|oz|drops?|capsules?|lines?|glass|glasses|hits?|tabs?|blotters?)\s*' # Unit
+            r'(mg|g|ug|µg|ml|oz|drops?|capsules?|lines?|glass|glasses|hits?|tabs?|blotters?|tablets?)\s*' # Unit
             r'(oral|orally|intranasal|insufflated|smoked|rectal|rectally|subcutaneous|sublingually|sublingual|buccal|buccally|intramuscular|im|iv|intravenous|sc|vaped|vaporized|inhaled)\s*' # Method
             r'([A-Za-z0-9,\-\s\(\)/]+?)(?:\s*\(|$)', # Substance/Form
             re.IGNORECASE
@@ -55,6 +55,9 @@ class ReportParser:
         pub_match = re.search(r'Published:\s*([^\n\r]+)', text)
         if pub_match: meta['published'] = pub_match.group(1).strip()
         
+        weight_match = re.search(r'BODY WEIGHT:\s*(\d+.*?)(?:\n|\r|   )', text)
+        if weight_match: meta['body_weight'] = weight_match.group(1).strip()
+        
         return meta
 
     def _extract_doses(self, soup, metadata):
@@ -72,7 +75,7 @@ class ReportParser:
                 cols = row.find_all('td')
                 # A common row: Time | Amount | Method | Substance | Form
                 # Or just Amount | Method | Substance
-                col_text = [c.get_text(strip=True) for c in cols]
+                col_text = [c.get_text(strip=True).replace('\xa0', ' ') for c in cols]
                 # Filter out headers
                 if not col_text or "Amount" in col_text[0]: continue
                 
@@ -85,7 +88,7 @@ class ReportParser:
                 # Erowid format is tricky. Let's try to map generic text to our schema
                 
                 # Check for recognized units in columns
-                doses.extend(self._parse_dose_row(col_text))
+                doses.extend(self._parse_dose_row(col_text, metadata))
 
         # Strategy 2: Regex on the whole text (Backup)
         # If table didn't yield results, or in addition to it? 
@@ -98,7 +101,7 @@ class ReportParser:
              
         return doses
 
-    def _parse_dose_row(self, cols):
+    def _parse_dose_row(self, cols, metadata):
         methods = {'oral', 'orally', 'insufflated', 'smoked', 'im', 'iv', 'rectal', 'sublingual', 'buccal', 'inhaled', 'vaped', 'vaporized'}
         
         amount_idx = -1
@@ -111,6 +114,9 @@ class ReportParser:
             if l in methods:
                  method_idx = i
             elif any(u in l for u in ['mg', 'g', 'ml', 'drops', 'lines', 'glass', 'tab', 'oz', 'capsu']) and re.search(r'\d', l):
+                 amount_idx = i
+            # Catch "2 tablets" etc.
+            elif any(u in l for u in ['tablets', 'pills']) and re.search(r'\d', l):
                  amount_idx = i
 
         # 2. Identify Substance (heuristic: not amount, not method, not Time, not Form)
@@ -143,17 +149,20 @@ class ReportParser:
             method = cols[method_idx] if method_idx != -1 else "unknown"
             subst = cols[subst_idx] if subst_idx != -1 else "Unknown"
             
+            form = ""
             # Form check (next column?)
             # If subst_idx was found, check if next col is form
             if subst_idx != -1 and subst_idx + 1 < len(cols) and subst_idx + 1 != amount_idx and subst_idx + 1 != method_idx:
-                form = cols[subst_idx+1]
+                form_val = cols[subst_idx+1]
                 # Simple check: form usually has parens or is short text
-                subst += f" ({form})"
+                if '(' in form_val or len(form_val) < 20: 
+                    form = form_val.strip("()")
                 
             results.append({
                 "substance": self._clean_substance(subst),
                 "dose": dose,
-                "method": method
+                "method": method,
+                "form": form
             })
             
         return results
@@ -167,11 +176,17 @@ class ReportParser:
             results.append({
                 'substance': self._clean_substance(sub_name),
                 'dose': dose,
-                'method': method.lower()
+                'method': method.lower(),
+                'form': ''
             })
         return results
         
     def _clean_substance(self, sub_name):
-        clean = re.sub(r'\s+', ' ', sub_name.strip())
-        clean = re.sub(r'[^\w\s,\(\)-]', '', clean)
-        return clean
+        clean = sub_name.strip()
+        # Loop to remove all parenthesized groups
+        while '(' in clean and ')' in clean:
+             clean = re.sub(r'\([^\)]*\)', '', clean)
+        
+        clean = re.sub(r'[^\w\s,-]', '', clean)
+        clean = re.sub(r'\s+', ' ', clean)
+        return clean.strip()

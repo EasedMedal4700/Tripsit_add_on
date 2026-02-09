@@ -12,50 +12,77 @@ from config_manager import ConfigManager
 from data_manager import DataManager
 from scraper import ErowidScraper
 from html_parser import ReportParser
-from utils import get_report_id, normalize
+from utils import get_report_id, normalize, load_json
 
-def analyze_doses(doses, unit=None):
-    # Simplified analyzer from previous script
-    # Takes list of dose strings or objects
-    # Returns formatted string like "Common: 10-20 mg"
-    # This logic was in previous script, implementing a placeholder here for brevity
-    # as the user asked to split tasks, not rewrite analysis logic fully yet.
-    # ... I will use the logic from previous script ...
+def build_distribution(doses_list):
+    # doses_list is a list of {dose: "10 mg", form: "...", ...}
     
-    parsed = []
-    for d_obj in doses:
-        # handle both string and dict
-        d_str = d_obj if isinstance(d_obj, str) else d_obj.get('dose', '')
-        d_str = d_str.strip().lower().replace(",", "")
+    # 1. Normalize doses to mg (or standardized unit) if possible
+    normalized = []
+    
+    for item in doses_list:
+        if not isinstance(item, dict): continue 
         
+        raw_dose = item.get('dose', '')
+        
+        # Try to parse number and unit
         import re
-        match = re.match(r'(\d+(?:\.\d+)?)\s*([a-zµ]+)', d_str)
+        match = re.match(r'(\d+(?:\.\d+)?)\s*(mg|g|ug|µg|oz|ml|drops?|capsules?|lines?|glass|glasses|hits?|tabs?|blotters?|tablets?|pills?)', raw_dose, re.IGNORECASE)
+        
+        final_val = raw_dose # Default fallback
+        
         if match:
-            parsed.append((float(match.group(1)), match.group(2)))
+            try:
+                val = float(match.group(1))
+                unit = match.group(2).lower()
+                
+                # Unit Normalization
+                if unit == 'g': 
+                    val *= 1000
+                    unit = 'mg'
+                elif unit in ['ug', 'µg']: 
+                    val /= 1000
+                    unit = 'mg'
+                elif 'tab' in unit or 'pill' in unit:
+                    unit = 'tablets'
+                elif 'hit' in unit:
+                    unit = 'hits'
+                elif 'capsule' in unit:
+                    unit = 'capsules'
+                elif 'drop' in unit:
+                    unit = 'drops'
+                elif 'oz' in unit: # Liquid oz or dry weight?
+                    # Generally assume fluid oz for unknown liquids, 
+                    # but if it's mushrooms... 1 oz = 28g = 28000mg
+                    # Ambiguous without context. Keep as oz?
+                    pass 
+                
+                # Format: "10.0 mg"
+                # Strip trailing .0 if integer
+                if val.is_integer():
+                    final_val = f"{int(val)} {unit}"
+                else:
+                    final_val = f"{val:.2f} {unit}"
+            except:
+                pass
+                
+        normalized.append(final_val)
             
-    if not parsed: return None
-
-    unit_counts = defaultdict(int)
-    for _, u in parsed: unit_counts[u] += 1
+    # Count frequency
+    dist = defaultdict(int)
+    for d in normalized:
+        dist[d] += 1
+        
+    # Sort keys for readability (numeric sort)
+    def sort_key(s):
+        try:
+            return float(s.split()[0])
+        except:
+            return 999999
+            
+    sorted_dist = sorted(dist.items(), key=lambda x: sort_key(x[0]))
     
-    most_common_unit = max(unit_counts, key=unit_counts.get)
-    valid_vals = sorted([p[0] for p in parsed if p[1] == most_common_unit])
-    
-    count = len(valid_vals)
-    if count == 0: return None
-    
-    # Simple quantiles
-    def p(pct): return valid_vals[min(int(count * pct), count-1)]
-    
-    ranges = {}
-    ranges["Common"] = f"{p(0.3)}-{p(0.7)} {most_common_unit}"
-    ranges["Heavy"] = f"{p(0.9)}+ {most_common_unit}"
-    
-    stats = {
-        "count": count,
-        "unit": most_common_unit
-    }
-    return ranges
+    return {k: v for k, v in sorted_dist}
 
 def main():
     # Setup
@@ -160,26 +187,47 @@ def main():
     
     # Group by substance -> method -> doses
     grouped = defaultdict(lambda: defaultdict(list))
-    
+    metadata_grouped = defaultdict(list)
+
     for r in all_reports:
         doses = r.get('doses', [])
+        
+        # Attempt to link metadata to a substance (using the first dose's substance)
+        # This is imperfect for reports with multiple substances, but sufficient for now
+        current_substance = None
+        if doses:
+            current_substance = doses[0].get('substance')
+
+        if current_substance and r.get('metadata'):
+             metadata_grouped[current_substance].append(r['metadata'])
+
         for d in doses:
             sub = d.get('substance')
             meth = d.get('method')
-            val = d.get('dose')
-            if sub and meth and val:
-                grouped[sub][meth].append(val)
+            if sub and meth and d.get('dose'):
+                grouped[sub][meth].append(d)
                 
-    # Analyze
+    # Analyze / Format
     final_output = {}
     for sub, methods in grouped.items():
         sub_out = {}
-        for meth, vals in methods.items():
-            analysis = analyze_doses(vals)
-            if analysis:
-                sub_out[meth] = analysis
-        if sub_out:
-            final_output[sub] = {"formatted_dose": sub_out}
+        for meth, dose_objs in methods.items():
+            dist = build_distribution(dose_objs)
+            if dist:
+                sub_out[meth] = dist
+        
+        # Add metadata (e.g. body weights)
+        weights = []
+        if sub in metadata_grouped:
+            for m in metadata_grouped[sub]:
+                if 'body_weight' in m:
+                    weights.append(m['body_weight'])
+        
+        if sub_out or weights:
+            entry = {}
+            if sub_out: entry["dose_distribution"] = sub_out
+            if weights: entry["body_weights"] = weights
+            final_output[sub] = entry
             
     data_mgr.save_final_output(final_output)
     print("Done.")
