@@ -12,6 +12,7 @@ import datetime
 import random
 import hashlib
 import glob
+import threading
 
 # -------------------------
 # Config
@@ -30,6 +31,17 @@ TEMP_DATA_DIR = os.path.join(BASE_DIR, "data", "temp_doses")
 
 MAX_WORKERS = 4
 MAX_REPORTS_PER_CATEGORY = 500
+
+# Global lock for progress file operations
+progress_lock = threading.Lock()
+# In-memory cache of progress
+progress_cache = None
+
+# Simulation flag
+SIMULATE_BLOCK = False  # Set to True to simulate blocking
+SIMULATE_BLOCK_AFTER = 50 # Simulate block after N requests
+request_counter = 0
+request_lock = threading.Lock()
 
 # -------------------------
 # Utilities
@@ -70,26 +82,41 @@ def load_erowid_links_json():
 # -------------------------
 
 def load_progress():
+    global progress_cache
     if not os.path.exists(PROGRESS_FILE):
+        progress_cache = {}
         return {}
     try:
         with open(PROGRESS_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
+            progress_cache = json.load(f)
+            return progress_cache
     except json.JSONDecodeError:
+        print("[WARN] progress.json was corrupt, starting fresh.")
+        progress_cache = {}
         return {}
 
 def update_progress(url, status):
     """Update progress for a specific URL."""
+    global progress_cache
     try:
-        # Optimization: Don't read-write for every single update if high volume, 
-        # but for safety against crashes, we do it here.
-        # Ideally we might hold a memory cache and flush every N updates, 
-        # but to ensure "stop and resume" works perfectly, atomic writes are better.
-        
-        data = load_progress()
-        data[url] = status
-        with open(PROGRESS_FILE, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=1)
+        with progress_lock:
+            # Ensure cache is loaded
+            if progress_cache is None:
+                load_progress()
+                
+            progress_cache[url] = status
+            
+            # Write to temp file first to ensure atomic updates (prevents corruption)
+            temp_file = PROGRESS_FILE + ".tmp"
+            with open(temp_file, 'w', encoding='utf-8') as f:
+                json.dump(progress_cache, f, indent=1)
+            
+            # Atomic replace
+            if os.path.exists(PROGRESS_FILE):
+                os.replace(temp_file, PROGRESS_FILE)
+            else:
+                os.rename(temp_file, PROGRESS_FILE)
+                
     except Exception as e:
         print(f"[WARN] Failed to update progress for {url}: {e}")
 
@@ -163,7 +190,16 @@ def extract_doses_from_text(text):
 
 def process_report(session, report_url):
     """Fetch report and extract doses."""
+    global request_counter
     try:
+        # Simulate blocking logic
+        if SIMULATE_BLOCK:
+            with request_lock:
+                request_counter += 1
+                if request_counter > SIMULATE_BLOCK_AFTER:
+                     print(f"SIMULATING BLOCK on {report_url}")
+                     return 'BLOCKED'
+
         # Sleep randomly between 1-2 seconds
         time.sleep(random.uniform(1.0, 2.0))
         

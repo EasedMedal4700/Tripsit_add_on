@@ -1,0 +1,7 @@
+compare:
+  drugs_file: "../../drugs.json"
+  extracted_doses_file: "../data/extracted_doses_2026-02-19_08-23-25.json"
+  output_file: "../data/dose_comparison_report.json"
+  thresholds:
+    minor: 0.1  # 10% difference
+    major: 0.5  # 50% difference

@@ -1,0 +1,5116 @@
+summary:
+  total_compared: 585
+  identical: 1
+  minor_diff: 54
+  major_diff: 158
+  new_data: 0
+  missing_data: 0
+details:
+  1,4-Butanediol:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.5-1.0 ml'
+        Light:
+          status: major_diff
+          diff: 0.5-1ml -> 1.0-2.0 ml
+        Common:
+          status: major_diff
+          diff: 1-1.5ml -> 2.0-3.0 ml
+        Strong:
+          status: major_diff
+          diff: 1.5ml+ -> 3.0-6.0 ml
+        Heavy:
+          status: new_data
+          diff: 'New: 6.0+ ml'
+      rectal: New Route
+  1B-LSD:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 25-50ug'
+        Common:
+          status: major_diff
+          diff: 50-125ug -> 125.0 ug
+        Strong:
+          status: missing_data
+          diff: 'Was: 125-250ug'
+  1CP-LSD:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 25.0 ug'
+        Light:
+          status: major_diff
+          diff: 25-50ug -> 25.0-100.0 ug
+        Common:
+          status: major_diff
+          diff: 50-100ug -> 100.0-200.0 ug
+        Strong:
+          status: major_diff
+          diff: 100-200ug -> 200.0-450.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 450.0+ ug'
+      sublingual: New Route
+  1P-ETH-LAD:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 20-30ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 30-60ug'
+        Common:
+          status: major_diff
+          diff: 60-100ug -> 200.0 ug
+        Strong:
+          status: missing_data
+          diff: 'Was: 100-200ug+'
+      sublingual: New Route
+  1P-LSD:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 4.0-50.0 ug'
+        Light:
+          status: major_diff
+          diff: 25-50ug -> 50.0-100.0 ug
+        Common:
+          status: major_diff
+          diff: 50-125ug -> 100.0-200.0 ug
+        Strong:
+          status: major_diff
+          diff: 125-200ug -> 200.0-300.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ ug'
+      sublingual: New Route
+  2-methyl-2-butanol:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.6-0.7 ml'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: g vs ml'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: g vs ml'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: g vs ml'
+        Heavy:
+          status: new_data
+          diff: 'New: 5.0+ ml'
+  2C-B:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0-10.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 10.0-20.0 mg
+        Common:
+          status: minor_diff
+          diff: 15-30mg -> 20.0-25.0 mg
+        Strong:
+          status: minor_diff
+          diff: 30-50mg -> 25.0-40.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.5-7.0 mg'
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 7.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-20mg -> 10.0-25.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-30mg -> 25.0-45.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal:
+        Threshold:
+          status: new_data
+          diff: 'New: 7.0 mg'
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 7.0-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-20mg -> 15.0-20.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  2C-B-FLY:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.5-5.0 mg'
+        Common:
+          status: minor_diff
+          diff: 10-18mg -> 10.0-15.0 mg
+        Strong:
+          status: minor_diff
+          diff: 18-25mg -> 15.0-20.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  2C-C:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 3.0-20.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 20.0-25.0 mg
+        Common:
+          status: major_diff
+          diff: 15-25mg -> 25.0-40.0 mg
+        Strong:
+          status: major_diff
+          diff: 25-30mg -> 40.0-50.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  2C-D:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 3-4mg -> 5.0-10.0 mg
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 10.0-16.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-50mg -> 16.0-40.0 mg
+        Strong:
+          status: minor_diff
+          diff: 50-100mg -> 40.0-65.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 65.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  2C-E:
+    status: major_diff
+    changes:
+      buccal: New Route
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.5-7.5 mg'
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 7.5-13.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 13.0-20.0 mg
+        Strong:
+          status: minor_diff
+          diff: 15-30mg -> 20.0-30.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-3.5 mg'
+        Light:
+          status: major_diff
+          diff: 1-3mg -> 3.5-5.0 mg
+        Common:
+          status: major_diff
+          diff: 3-7mg -> 5.0-12.0 mg
+        Strong:
+          status: major_diff
+          diff: 6-10mg -> 12.0-25.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  2C-I:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 2-5mg -> 2.5-10.0 mg
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 10.0-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-25mg -> 15.0-20.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+      sc: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: major_diff
+          diff: 0.5-2mg -> 2.0-4.0 mg
+        Light:
+          status: new_data
+          diff: 'New: 4.0-5.0 mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 5.0-20.0 mg
+        Strong:
+          status: major_diff
+          diff: 10mg+ -> 20.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+      rectal: New Route
+  2C-IP:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 5mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5-15mg'
+        Common:
+          status: major_diff
+          diff: 15-30mg -> 50.0 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 30-45mg'
+  2C-N:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 100mg'
+        Common:
+          status: minor_diff
+          diff: 100-125mg -> 60.0-140.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 125-150mg+'
+  2C-P:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0-6.0 mg'
+        Light:
+          status: major_diff
+          diff: 2-4mg -> 6.0-9.0 mg
+        Common:
+          status: major_diff
+          diff: 4-6mg -> 9.0-12.0 mg
+        Strong:
+          status: major_diff
+          diff: 6-10mg -> 12.0-35.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 35.0+ mg'
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0-3.0 mg'
+        Light:
+          status: major_diff
+          diff: 1-3mg -> 3.0-5.0 mg
+        Common:
+          status: major_diff
+          diff: 3-5mg -> 5.0-10.0 mg
+        Strong:
+          status: major_diff
+          diff: 5-10mg. -> 10.0-11.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 11.0+ mg'
+      rectal: New Route
+  2C-T-2:
+    status: minor_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 5mg -> 3.0-6.0 mg
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 6.0-10.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-25mg+ -> 20.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  2C-T-4:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 5-6mg -> 1.0-4.0 mg
+        Light:
+          status: minor_diff
+          diff: 6-10mg -> 4.0-10.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 20.0+ mg'
+      insufflated: New Route
+  2C-T-7:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.5-10.0 mg'
+        Common:
+          status: minor_diff
+          diff: 15-30mg -> 20.0-30.0 mg
+        Strong:
+          status: minor_diff
+          diff: 30-40mg -> 30.0-50.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  2C-T-21:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 3mg -> 5.0 mg
+        Light:
+          status: major_diff
+          diff: 3-5mg -> 5.0-8.0 mg
+        Common:
+          status: major_diff
+          diff: 5-8mg -> 8.0-12.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 12.0-16.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+      rectal: New Route
+  3-HO-PCE:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-5mg'
+        Common:
+          status: minor_diff
+          diff: 5-10mg -> 4.0-13.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10-15mg'
+      insufflated: New Route
+  3-HO-PCP:
+    status: minor_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-2.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 2-4mg'
+        Common:
+          status: minor_diff
+          diff: 4-5mg -> 2.0-3.0 mg
+        Strong:
+          status: minor_diff
+          diff: 5mg+ -> 3.0-6.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 6.0+ mg'
+      sublingual: New Route
+      insufflated: New Route
+  3-MeO-PCE:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 12.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 3-5mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 12.0-40.0 mg
+        Strong:
+          status: major_diff
+          diff: 10-20mg+ -> 40.0-160.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 160.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  3-MeO-PCMO:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 50-80mg'
+        Common:
+          status: major_diff
+          diff: 80-125mg -> 150.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 125-150mg+'
+      insufflated: New Route
+      rectal: New Route
+  3-MeO-PCP:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 1.5-3mg -> 5.0 mg
+        Light:
+          status: major_diff
+          diff: 3-5mg -> 5.0-6.0 mg
+        Common:
+          status: minor_diff
+          diff: 5-10mg. -> 6.0-10.0 mg
+        Strong:
+          status: major_diff
+          diff: 10-15mg -> 10.0-25.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: major_diff
+          diff: 1-2mg -> 5.0 mg
+        Light:
+          status: major_diff
+          diff: 2-5mg -> 5.0-10.0 mg
+        Common:
+          status: major_diff
+          diff: 5-8mg -> 10.0-19.0 mg
+        Strong:
+          status: major_diff
+          diff: 8-12mg -> 19.0-25.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  3C-E:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 15-25mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 25-35mg'
+        Common:
+          status: minor_diff
+          diff: 35-50mg -> 50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 50-70mg+'
+      insufflated: New Route
+  3C-P:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 8.0 mg
+        Light:
+          status: minor_diff
+          diff: 10-20mg -> 8.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-40mg -> 10.0-40.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 40.0-43.0 mg'
+      insufflated: New Route
+      rectal: New Route
+  4-AcO-DALT:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 20mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 40-50mg'
+        Common:
+          status: major_diff
+          diff: 50-70mg -> 80.0 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 100+mg'
+      insufflated: New Route
+  4-AcO-DET:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 2-5mg -> 4.0-10.0 mg
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 10.0-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 15.0-20.0 mg
+        Strong:
+          status: minor_diff
+          diff: 15-30mg -> 20.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+      smoked: New Route
+      insufflated: New Route
+      rectal: New Route
+  4-AcO-DiPT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 3-5mg -> 4.0-10.0 mg
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 10.0-20.0 mg
+        Common:
+          status: major_diff
+          diff: 10-20mg -> 20.0-30.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-35mg -> 30.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 40.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  4-AcO-DMT:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 3.0-8.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 8.0-16.0 mg
+        Common:
+          status: major_diff
+          diff: 10-25mg -> 16.0-30.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 30.0-50.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  4-AcO-DPT:
+    status: minor_diff
+    changes:
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: minor_diff
+          diff: 10-15mg -> 10.0-20.0 mg
+        Common:
+          status: minor_diff
+          diff: 15-25mg -> 20.0-25.0 mg
+        Strong:
+          status: minor_diff
+          diff: 25-35mg+ -> 25.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+  4-AcO-MET:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: minor_diff
+          diff: 12-18mg -> 10.0-12.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-25mg -> 12.0-30.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 30.0-40.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 25-35+mg -> 40.0+ mg
+      insufflated: New Route
+  4-AcO-MiPT:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 6.0-6.25 mg'
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 6.25-10.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-40mg. -> 20.0-25.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 25.0+ mg'
+  4-Fluoromethylphenidate:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 1-5mg -> 10.0 mg
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 10.0-13.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 13.0-20.0 mg
+        Strong:
+          status: minor_diff
+          diff: 15-20mg -> 20.0-30.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  4-HO-DET:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 15.0-25.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 10-15mg'
+        Common:
+          status: major_diff
+          diff: 15-20mg -> 25.0-27.5 mg
+        Strong:
+          status: minor_diff
+          diff: 20-30mg+ -> 27.5-38.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 38.0+ mg'
+      rectal: New Route
+  4-HO-DiPT:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 3-5mg -> 3.5-9.0 mg
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 9.0-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-20mg -> 15.0-25.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-30mg+ -> 25.0-35.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 35.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  4-HO-DPT:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 25-50mg'
+        Common:
+          status: minor_diff
+          diff: 50-75mg -> 60.0-100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 75-100mg'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 100mg'
+      insufflated: New Route
+      rectal: New Route
+  4-HO-EPT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: minor_diff
+          diff: 10-20mg -> 10.0-30.0 mg
+        Common:
+          status: major_diff
+          diff: 20-30mg -> 30.0-65.0 mg
+        Strong:
+          status: major_diff
+          diff: 30-50mg+ -> 65.0-100.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 100.0+ mg'
+  4-HO-MCPT:
+    status: minor_diff
+    changes:
+      oral: New Route
+  4-HO-MET:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 3.0-8.0 mg'
+        Light:
+          status: minor_diff
+          diff: 10mg -> 8.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 10.0-20.0 mg
+        Strong:
+          status: major_diff
+          diff: 20mg+ -> 20.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 40.0+ mg'
+      im: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  4-HO-MiPT:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 2.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 15-20mg -> 15.0-28.0 mg
+        Strong:
+          status: minor_diff
+          diff: 20-30mg -> 28.0-40.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  4-HO-MPT:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 16.0-30.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-25mg'
+  4-MeO-MiPT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 4.0 mg'
+        Light:
+          status: major_diff
+          diff: 10mg -> 4.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-20mg -> 10.0-25.0 mg
+        Strong:
+          status: major_diff
+          diff: 20mg+ -> 25.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 40.0+ mg'
+      insufflated: New Route
+  4-MeO-PCP:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 25-50mg -> 50.0 mg
+        Light:
+          status: minor_diff
+          diff: 50-100mg -> 50.0-75.0 mg
+        Common:
+          status: minor_diff
+          diff: 100-150mg -> 75.0-175.0 mg
+        Strong:
+          status: major_diff
+          diff: 150mg+ -> 175.0-300.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  4-METHYLAMINOREX:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 1mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 1-5mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 10.0-30.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10-15mg'
+      insufflated: New Route
+  5-APB:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 40.0 mg'
+        Common:
+          status: minor_diff
+          diff: 70-100mg -> 60.0-100.0 mg
+        Strong:
+          status: minor_diff
+          diff: 100mg+ -> 100.0-120.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 120.0+ mg'
+  5-APDB:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0 mg'
+        Common:
+          status: minor_diff
+          diff: 75-125mg -> 70.0-100.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 100.0-120.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  5-IT:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 50mg'
+        Common:
+          status: minor_diff
+          diff: 50-100mg -> 50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 100-150mg+'
+  5-MAPB:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0-30.0 mg'
+        Light:
+          status: minor_diff
+          diff: 40-60mg -> 30.0-50.0 mg
+        Common:
+          status: minor_diff
+          diff: 60-80mg -> 50.0-80.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 80.0-125.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  5-MeO-DALT:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 4-5mg -> 10.0-17.0 mg
+        Light:
+          status: major_diff
+          diff: 5-12mg -> 17.0-25.0 mg
+        Common:
+          status: major_diff
+          diff: 12-20mg -> 25.0-50.0 mg
+        Strong:
+          status: major_diff
+          diff: 20mg+ -> 50.0-100.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 100.0+ mg'
+      insufflated: New Route
+  5-MeO-DIBF:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 10-20mg'
+        Common:
+          status: minor_diff
+          diff: 20-40mg -> 10.0-50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 40-60mg+'
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 20.0-50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-20mg+'
+  5-MeO-DiPT:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 3mg -> 2.0-5.0 mg
+        Common:
+          status: minor_diff
+          diff: 8-15mg -> 10.0-15.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 25.0+ mg'
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  5-MeO-DMT:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral: New Route
+      im: New Route
+      smoked:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0-5.0 mg'
+        Light:
+          status: major_diff
+          diff: 2-5mg -> 5.0-9.0 mg
+        Common:
+          status: new_data
+          diff: 'New: 9.0-15.0 mg'
+        Strong:
+          status: minor_diff
+          diff: 10-20mg -> 15.0-25.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 25.0+ mg'
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 4.0-6.0 mg'
+        Light:
+          status: major_diff
+          diff: 3-5mg -> 6.0-10.0 mg
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 10.0-20.0 mg
+        Strong:
+          status: major_diff
+          diff: 8-15mg -> 20.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+  5-MeO-DPT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 3mg'
+        Common:
+          status: major_diff
+          diff: 3-5mg -> 10.0-20.6 mg
+        Strong:
+          status: major_diff
+          diff: 5-10mg+ -> 20.6-25.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 25.0+ mg'
+      insufflated: New Route
+  5-MeO-EiPT:
+    status: minor_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 2-5mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: minor_diff
+          diff: 10-20mg -> 10.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 20-25mg+'
+  5-MeO-MALT:
+    status: major_diff
+    changes:
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-20mg -> 2.0-10.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 20mg+'
+  5-MeO-MET:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 13-15mg'
+        Common:
+          status: major_diff
+          diff: 15-25mg -> 25.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 25mg+'
+  5-MeO-MiPT:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 0.5mg-1mg -> 1.0-3.0 mg
+        Light:
+          status: major_diff
+          diff: 1-3mg -> 3.0-5.0 mg
+        Common:
+          status: minor_diff
+          diff: 4-8mg -> 5.0-10.0 mg
+        Strong:
+          status: minor_diff
+          diff: 8-12mg+. -> 10.0-15.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 15.0+ mg'
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  6-APB:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0-50.0 mg'
+        Strong:
+          status: new_data
+          diff: 'New: 125.0-200.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  6-APDB:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 25-30mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 30-40mg'
+        Common:
+          status: minor_diff
+          diff: 40-75mg -> 20.0-100.0 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 75-100+mg'
+  6-MAPB:
+    status: minor_diff
+    changes:
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 10-20mg'
+        Common:
+          status: minor_diff
+          diff: 20-40mg -> 25.0-32.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 40-100mg+'
+  25B-NBOH:
+    status: minor_diff
+    changes:
+      buccal: New Route
+      oral: New Route
+      iv: New Route
+  25B-NBOMe:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral: New Route
+      sublingual:
+        Threshold:
+          status: major_diff
+          diff: 100ug -> 200.0 ug
+        Light:
+          status: major_diff
+          diff: 100-300ug -> 200.0-350.0 ug
+        Common:
+          status: minor_diff
+          diff: 350-500ug -> 350.0-600.0 ug
+        Strong:
+          status: minor_diff
+          diff: 500-700ug+ -> 600.0-740.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 740.0+ ug'
+      insufflated:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 50ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 50-200ug'
+        Common:
+          status: major_diff
+          diff: 200-350ug -> 330.0 ug
+        Strong:
+          status: missing_data
+          diff: 'Was: 350-500+'
+  25C-NBOH:
+    status: major_diff
+    changes:
+      buccal: New Route
+      sublingual:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 100-200ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 300-600ug'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 1400-2000ug+'
+  25C-NBOMe:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral: New Route
+      sublingual:
+        Threshold:
+          status: major_diff
+          diff: 50-250ug -> 150.0-250.0 ug
+        Light:
+          status: minor_diff
+          diff: 250-500ug -> 250.0-300.0 ug
+        Common:
+          status: minor_diff
+          diff: 500-750ug -> 300.0-600.0 ug
+        Strong:
+          status: minor_diff
+          diff: 750-1250ug+ -> 600.0-1000.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 1000.0+ ug'
+      insufflated: New Route
+      rectal: New Route
+  25D-NBOMe:
+    status: major_diff
+    changes:
+      buccal: New Route
+      sublingual:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 100-300ug.'
+        Light:
+          status: missing_data
+          diff: 'Was: 300-500ug.'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: missing_data
+          diff: 'Was: 1000-1250ug+'
+  25E-NBOMe:
+    status: minor_diff
+    changes:
+      buccal: New Route
+      insufflated: New Route
+  25G-NBOMe:
+    status: major_diff
+    changes:
+      buccal:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 500ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 1000-1500ug'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: missing_data
+          diff: 'Was: 2000ug+'
+  25I-NBOH:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 100ug-400ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 400ug-800ug'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: missing_data
+          diff: 'Was: 1400ug-2000ug+'
+      sublingual: New Route
+      insufflated: New Route
+  25I-NBOMe:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral: New Route
+      sublingual:
+        Threshold:
+          status: major_diff
+          diff: 50-250ug -> 1.0-250.0 ug
+        Light:
+          status: minor_diff
+          diff: 200-500ug -> 250.0-600.0 ug
+        Common:
+          status: minor_diff
+          diff: 500-750ug -> 600.0-750.0 ug
+        Strong:
+          status: major_diff
+          diff: 700-1000ug+ -> 750.0-2000.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 2000.0+ ug'
+      insufflated: New Route
+      rectal: New Route
+  25N-NBOMe:
+    status: major_diff
+    changes:
+      buccal:
+        Light:
+          status: missing_data
+          diff: 'Was: 100-300ug'
+        Common:
+          status: major_diff
+          diff: 300-800ug -> 250.0 ug
+        Strong:
+          status: missing_data
+          diff: 'Was: 800-1300ug+'
+  25P-NBOMe:
+    status: minor_diff
+    changes:
+      insufflated: New Route
+  Acetildenafil:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-15mg'
+        Common:
+          status: major_diff
+          diff: 15-30mg -> 150.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-40mg'
+  Acetylfentanyl:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 1-3mg'
+        Common:
+          status: major_diff
+          diff: 3-5mg -> 25.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 5-7mg+'
+      sublingual: New Route
+  Adrafinil:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 100-150mg -> 295.0-300.0 mg
+        Light:
+          status: missing_data
+          diff: 'Was: 150-250mg'
+        Common:
+          status: minor_diff
+          diff: 250-400mg -> 300.0-600.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  AH-7921:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-25mg -> 1.0-237.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 25mg+'
+      sublingual: New Route
+  AL-LAD:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 75.0 ug'
+        Light:
+          status: major_diff
+          diff: 40-75ug -> 75.0-150.0 ug
+        Common:
+          status: major_diff
+          diff: 75-175ug -> 150.0-300.0 ug
+        Strong:
+          status: major_diff
+          diff: 175-250ug -> 300.0-450.0 ug
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs '
+      sublingual: New Route
+  Alcohol:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 1-2units'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: units vs ml'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 5-6units'
+  ALD-52:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0-100.0 ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 25-75ug'
+        Common:
+          status: major_diff
+          diff: 75-150ug -> 100.0-250.0 ug
+        Strong:
+          status: major_diff
+          diff: 150-300ug. -> 250.0-300.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ ug'
+      sublingual: New Route
+  Aleph:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-4mg'
+        Common:
+          status: minor_diff
+          diff: 4-6mg -> 6.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 6-12mg.'
+      insufflated: New Route
+  Allylescaline:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 15-20mg -> 2.0-5.0 mg
+        Light:
+          status: major_diff
+          diff: 20-30mg -> 5.0-10.0 mg
+        Common:
+          status: major_diff
+          diff: 30-40mg -> 10.0-27.0 mg
+        Strong:
+          status: minor_diff
+          diff: 40-60mg+ -> 27.0-50.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 50.0+ mg'
+      rectal: New Route
+  AM-2201:
+    status: minor_diff
+    changes:
+      smoked: New Route
+  Aniracetam:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 450.0 mg'
+        Light:
+          status: new_data
+          diff: 'New: 450.0-750.0 mg'
+        Common:
+          status: minor_diff
+          diff: 1500mg -> 750.0-1500.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 1500.0-3000.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 3000.0+ mg'
+  Armodafinil:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0-75.0 mg'
+        Light:
+          status: new_data
+          diff: 'New: 75.0-100.0 mg'
+        Common:
+          status: major_diff
+          diff: 50-150mg -> 100.0-150.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 150.0-250.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 250.0+ mg'
+  Ashwagandha:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 300-500mg'
+        Common:
+          status: major_diff
+          diff: 500-1000mg -> 900.0-3900.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 1000-2000mg'
+  Aspirin:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 50mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 75mg-81mg'
+        Common:
+          status: minor_diff
+          diff: 325mg-650mg -> 250.0-325.0 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 1.6g'
+  Ayahuasca:
+    status: minor_diff
+    changes:
+      oral: New Route
+  Benzydamine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0 g'
+        Light:
+          status: missing_data
+          diff: 'Was: 250-500mg'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Heavy:
+          status: new_data
+          diff: 'New: 2.0+ g'
+  BOD:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 12-15mg -> 15.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-30mg -> 19.4-25.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 25.0-31.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  Bromazepam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 3.0 mg'
+        Light:
+          status: minor_diff
+          diff: 2.5-5mg -> 3.0-6.0 mg
+        Common:
+          status: minor_diff
+          diff: 5-10mg -> 6.0-15.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 15.0-24.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+  Bromo-DragonFLY:
+    status: minor_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 100ug -> 50.0-100.0 ug
+        Common:
+          status: minor_diff
+          diff: 100-400ug -> 100.0-500.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 675.0+ ug'
+      sublingual: New Route
+      insufflated: New Route
+  BZP:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0-90.0 mg'
+        Light:
+          status: major_diff
+          diff: 40-70mg -> 90.0-100.0 mg
+        Common:
+          status: major_diff
+          diff: 70-100mg -> 100.0-200.0 mg
+        Strong:
+          status: major_diff
+          diff: 100-130mg -> 200.0-300.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  Caffeine:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 10-20mg -> 8.0-65.0 mg
+        Light:
+          status: major_diff
+          diff: 20-75mg -> 65.0-200.0 mg
+        Common:
+          status: major_diff
+          diff: 75mg-250mg -> 200.0-400.0 mg
+        Strong:
+          status: major_diff
+          diff: 250-400mg -> 400.0-1600.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  Cannabis:
+    status: major_diff
+    changes:
+      smoked:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.1-0.35 g'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Heavy:
+          status: new_data
+          diff: 'New: 5.0+ g'
+      oral: New Route
+  Phenylpiracetam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Changa:
+    status: minor_diff
+    changes:
+      smoked: New Route
+  Clobazam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 20.0-30.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  Clonazolam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: new_data
+          diff: 'New: 2.0-5.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs '
+      sublingual: New Route
+  Cocaine:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral: New Route
+      smoked: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.25-0.5 g'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  Codeine:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 8.0-30.0 mg'
+        Light:
+          status: minor_diff
+          diff: 50-100mg -> 30.0-60.0 mg
+        Common:
+          status: minor_diff
+          diff: 100-150mg -> 60.0-150.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 150.0-256.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  Coluracetam:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 3-5mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 20.0-30.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10-20mg+'
+  DALT:
+    status: minor_diff
+    changes:
+      smoked: New Route
+  Datura:
+    status: minor_diff
+    changes:
+      smoked: New Route
+      oral: New Route
+      insufflated: New Route
+  Deschloroetizolam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 3.0 mg'
+        Light:
+          status: minor_diff
+          diff: 2-4mg -> 3.0-5.0 mg
+        Common:
+          status: major_diff
+          diff: 4-6mg -> 5.0-10.0 mg
+        Strong:
+          status: major_diff
+          diff: 6-12mg -> 10.0-12.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 12.0+ mg'
+  Deschloroketamine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 7.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 7.0-30.0 mg
+        Common:
+          status: major_diff
+          diff: 15-25mg -> 30.0-50.0 mg
+        Strong:
+          status: major_diff
+          diff: 25-40mg -> 50.0-100.0 mg
+        Heavy:
+          status: major_diff
+          diff: 40+mg. -> 100.0+ mg
+      im: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  DET:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 18.0 mg'
+        Light:
+          status: minor_diff
+          diff: 20-40mg -> 18.0-23.0 mg
+        Common:
+          status: major_diff
+          diff: 50-80mg -> 23.0-90.0 mg
+        Strong:
+          status: major_diff
+          diff: 80mg+ -> 90.0-300.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ mg'
+      smoked: New Route
+      rectal: New Route
+  Diclazepam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0 mg'
+        Light:
+          status: major_diff
+          diff: 0.25-1mg -> 1.0-2.0 mg
+        Common:
+          status: major_diff
+          diff: 1-2mg -> 2.0-4.0 mg
+        Strong:
+          status: major_diff
+          diff: 2mg+ -> 4.0-20.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 20.0+ mg'
+      sublingual: New Route
+  Dimethocaine:
+    status: major_diff
+    changes:
+      iv: New Route
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-15mg'
+        Common:
+          status: major_diff
+          diff: 15-30mg -> 100.0-250.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-50mg'
+  Diphenhydramine:
+    status: minor_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0-50.0 mg'
+        Light:
+          status: minor_diff
+          diff: 100-250mg -> 50.0-125.0 mg
+        Common:
+          status: minor_diff
+          diff: 200-500mg -> 125.0-425.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 750.0+ mg'
+  Diphenidine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 50mg -> 30.0 mg
+        Light:
+          status: major_diff
+          diff: 70-85mg -> 30.0-65.0 mg
+        Common:
+          status: minor_diff
+          diff: 85-110mg -> 65.0-100.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 100.0-150.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  DiPT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 15mg -> 5.0-20.0 mg
+        Light:
+          status: minor_diff
+          diff: 15-25mg -> 20.0-30.0 mg
+        Common:
+          status: minor_diff
+          diff: 30-50mg -> 30.0-70.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 70.0-104.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  DMT:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral: New Route
+      im: New Route
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0 mg'
+        Light:
+          status: major_diff
+          diff: 10-25mg -> 20.0-50.0 mg
+        Common:
+          status: major_diff
+          diff: 25-50mg -> 50.0-130.0 mg
+        Strong:
+          status: major_diff
+          diff: 50-125mg+ -> 130.0-200.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 200.0+ mg'
+      rectal: New Route
+  DOB:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: new_data
+          diff: 'New: 2.75-3.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs '
+      sublingual: New Route
+  DOC:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0 mg'
+        Light:
+          status: minor_diff
+          diff: 1-1.5mg -> 1.0-2.0 mg
+        Common:
+          status: major_diff
+          diff: 1.5-2mg -> 2.0-3.5 mg
+        Strong:
+          status: major_diff
+          diff: 2-4mg -> 3.5-7.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+      insufflated: New Route
+  DOET:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 1mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 2-4mg'
+        Common:
+          status: major_diff
+          diff: 4-6mg -> 3.0-12.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 6-10mg'
+  DOI:
+    status: major_diff
+    changes:
+      sc: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Common:
+          status: major_diff
+          diff: 1mg-3mg. -> 2.0-4.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 4.0-8.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  DOIP:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 800ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 800-1500ug'
+        Common:
+          status: major_diff
+          diff: 1.5-3mg -> 5.0-12.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 3mg+'
+  DOM:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-2.5 mg'
+        Light:
+          status: major_diff
+          diff: 1-2.5mg -> 2.5-5.0 mg
+        Common:
+          status: major_diff
+          diff: 2.5-5mg -> 5.0-10.0 mg
+        Strong:
+          status: major_diff
+          diff: 5-7.5mg -> 10.0-15.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+  DON:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 2mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 3mg'
+        Common:
+          status: minor_diff
+          diff: 3-5mg -> 2.5-5.5 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 5mg+'
+  DOPR:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: major_diff
+          diff: 2.5mg -> 1.25-5.0 mg
+        Common:
+          status: major_diff
+          diff: 2.5-3.5mg -> 5.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 5.0-6.6 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  DPT:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0 mg'
+        Light:
+          status: minor_diff
+          diff: 75-125mg -> 50.0-75.0 mg
+        Common:
+          status: minor_diff
+          diff: 125-200mg -> 75.0-200.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 250.0+ mg'
+      im: New Route
+      smoked:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 12.5-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 30-50mg -> 30.0-40.0 mg
+        Strong:
+          status: minor_diff
+          diff: 50-100mg -> 40.0-70.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 70.0+ mg'
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0-20.0 mg'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch:  vs mg'
+        Common:
+          status: minor_diff
+          diff: 50-100mg -> 35.0-80.0 mg
+        Strong:
+          status: minor_diff
+          diff: 100-150mg -> 80.0-150.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 150.0+ mg'
+      rectal: New Route
+  Dimenhydrinate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ephedrine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 12.5-24.0 mg
+        Light:
+          status: major_diff
+          diff: 10-20mg -> 24.0-25.0 mg
+        Common:
+          status: major_diff
+          diff: 20-30mg -> 25.0-75.0 mg
+        Strong:
+          status: major_diff
+          diff: 30-50mg -> 75.0-200.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  Ephenidine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 40.0-60.0 mg'
+        Light:
+          status: minor_diff
+          diff: 50-75mg -> 60.0-100.0 mg
+        Common:
+          status: minor_diff
+          diff: 75-110mg -> 100.0-120.0 mg
+        Strong:
+          status: major_diff
+          diff: 110-150mg -> 120.0-250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  EPT:
+    status: minor_diff
+    changes:
+      smoked: New Route
+      rectal: New Route
+  Escaline:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 20-30mg -> 50.0 mg
+        Light:
+          status: major_diff
+          diff: 30-45mg -> 50.0-60.0 mg
+        Common:
+          status: major_diff
+          diff: 45-60mg -> 60.0-100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 60mg+'
+        Heavy:
+          status: new_data
+          diff: 'New: 100.0+ mg'
+      insufflated: New Route
+  ETH-LAD:
+    status: major_diff
+    changes:
+      buccal: New Route
+      sc: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 20-30ug -> 100.0 ug
+        Light:
+          status: major_diff
+          diff: 30-60ug -> 100.0-150.0 ug
+        Common:
+          status: major_diff
+          diff: 60-100ug -> 150.0-400.0 ug
+        Strong:
+          status: major_diff
+          diff: 100-200ug+ -> 400.0-450.0 ug
+        Heavy:
+          status: new_data
+          diff: 'New: 450.0+ ug'
+      sublingual: New Route
+  Ethylcathinone:
+    status: minor_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 30-50mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 50-80mg'
+        Common:
+          status: minor_diff
+          diff: 80-150mg -> 100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 150-300mg+'
+      insufflated:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 5-20mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 15-30mg'
+        Common:
+          status: minor_diff
+          diff: 35-70mg -> 30.0-50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 75-100mg+'
+  Ethylphenidate:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 20-40mg'
+        Common:
+          status: minor_diff
+          diff: 40-100mg -> 20.0-50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 100-150mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  Etizolam:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.5-1.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 0.5-1mg'
+        Common:
+          status: minor_diff
+          diff: 1-2mg -> 1.0-2.5 mg
+        Strong:
+          status: minor_diff
+          diff: 2-4mg+ -> 2.5-5.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 5.0+ mg'
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  Etodesnitazene:
+    status: minor_diff
+    changes:
+      insufflated: New Route
+  Flualprazolam:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 0.125-0.25mg'
+        Common:
+          status: major_diff
+          diff: 0.25-0.5mg -> 1.0-2.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 0.5-1mg'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 1-2mg'
+  Flubromazepam:
+    status: identical
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-4mg'
+        Strong:
+          status: missing_data
+          diff: 'Was: 8-12mg+'
+  Flubromazolam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 100-200ug'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 75.0+ mg'
+      sublingual: New Route
+  Flunitrazolam:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 30-40ug'
+        Light:
+          status: missing_data
+          diff: 'Was: 40-80ug'
+        Common:
+          status: major_diff
+          diff: 80-150ug -> 300.0-500.0 ug
+        Strong:
+          status: missing_data
+          diff: 'Was: 150-300ug.'
+  Fluorophenibut:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 50-100mg'
+        Common:
+          status: major_diff
+          diff: 100-150mg -> 250.0-500.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 200-250mg+'
+  GABA:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 200-400mg'
+        Common:
+          status: major_diff
+          diff: 400-800mg -> 100.0-400.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 800-1600mg+'
+      sublingual: New Route
+      insufflated: New Route
+  GBL:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.5-1.0 ml'
+        Light:
+          status: major_diff
+          diff: 0.3-0.9ml -> 1.0-1.5 ml
+        Common:
+          status: major_diff
+          diff: 0.6-1.5ml -> 1.5-3.0 ml
+        Strong:
+          status: major_diff
+          diff: 1.2-2ml -> 3.0-9.0 ml
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ml vs '
+  GHB:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.6-1.0 g'
+        Light:
+          status: major_diff
+          diff: 0.5-1.5g -> 1.0-1.5 g
+        Common:
+          status: minor_diff
+          diff: 1-2.5g -> 1.5-2.7 g
+        Strong:
+          status: minor_diff
+          diff: 2-3.5g -> 2.7-4.0 g
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: g vs '
+  Glaucine:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 50-100mg'
+        Common:
+          status: minor_diff
+          diff: 100-150mg -> 72.0-200.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 150-200mg+'
+  HDMP-28:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 8-10mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 10-15'
+        Common:
+          status: minor_diff
+          diff: 15-30mg -> 20.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-50mg+'
+      insufflated: New Route
+  Heroin:
+    status: major_diff
+    changes:
+      iv: New Route
+      im: New Route
+      smoked:
+        Threshold:
+          status: new_data
+          diff: 'New: 15.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-15mg -> 15.0-20.0 mg
+        Common:
+          status: major_diff
+          diff: 15-25mg -> 20.0-250.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 250.0-400.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 7.0-8.0 mg'
+        Light:
+          status: minor_diff
+          diff: 7.5-20mg -> 8.0-15.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-35mg -> 15.0-30.0 mg
+        Strong:
+          status: major_diff
+          diff: 35-50mg -> 30.0-100.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  HOT-2:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 8mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 10-12mg'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs ug'
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-20mg+'
+  HOT-7:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 15mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 15-20mg'
+        Common:
+          status: minor_diff
+          diff: 20-30mg -> 22.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-40mg+'
+  Hydrocodone:
+    status: minor_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.5-5.0 mg'
+        Light:
+          status: minor_diff
+          diff: 5-10mg -> 5.0-7.5 mg
+        Common:
+          status: minor_diff
+          diff: 10-25mg -> 7.5-20.0 mg
+        Strong:
+          status: minor_diff
+          diff: 25-40mg. -> 20.0-37.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 37.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  Hydromorphone:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-2.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 1-2mg'
+        Common:
+          status: minor_diff
+          diff: 3-4mg -> 2.0-4.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 8.0+ mg'
+      im: New Route
+      sc: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0 mg'
+        Light:
+          status: major_diff
+          diff: 1-2mg -> 2.0-4.0 mg
+        Common:
+          status: minor_diff
+          diff: 3-4mg -> 4.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 8.0+ mg'
+      rectal: New Route
+  Hydroxyzine:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 6.25 mg'
+        Light:
+          status: new_data
+          diff: 'New: 6.25-25.0 mg'
+        Strong:
+          status: new_data
+          diff: 'New: 100.0-200.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 200.0+ mg'
+  Ibogaine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 16.0 mg'
+        Light:
+          status: new_data
+          diff: 'New: 16.0-215.0 mg'
+        Common:
+          status: major_diff
+          diff: 16-22mg/kg -> 215.0-589.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 589.0-860.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 860.0+ mg'
+  Isopropylphenidate:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 7-10mg'
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 5.0-30.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-30mg+'
+      insufflated: New Route
+  Isoproscaline:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 30mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 40-50mg'
+        Common:
+          status: major_diff
+          diff: 50-60mg -> 22.5-80.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 60-80mg+'
+      insufflated: New Route
+  Kava:
+    status: major_diff
+    changes:
+      buccal: New Route
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 21.0-200.0 mg'
+        Light:
+          status: major_diff
+          diff: 50-70mg -> 200.0-450.0 mg
+        Common:
+          status: major_diff
+          diff: 70-150mg -> 450.0-1200.0 mg
+        Strong:
+          status: major_diff
+          diff: 150-200mg -> 1200.0-2250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+  Ketamine:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral: New Route
+      im: New Route
+      sc: New Route
+      smoked: New Route
+      insufflated:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 1.3-20.0 mg
+        Common:
+          status: major_diff
+          diff: 50-125mg -> 50.0-200.0 mg
+        Strong:
+          status: major_diff
+          diff: 125-175mg -> 200.0-400.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  Kratom:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.25-1.0 g'
+        Light:
+          status: major_diff
+          diff: 0.5-1.5g -> 1.0-3.0 g
+        Common:
+          status: major_diff
+          diff: 1.5-3g -> 3.0-6.0 g
+        Strong:
+          status: major_diff
+          diff: 3-6g -> 6.0-12.0 g
+        Heavy:
+          status: new_data
+          diff: 'New: 12.0+ g'
+      smoked: New Route
+      sublingual: New Route
+      rectal: New Route
+  LSD:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 5.7-11.424 ug'
+        Light:
+          status: major_diff
+          diff: 50-100ug -> 11.424-75.0 ug
+        Common:
+          status: minor_diff
+          diff: 100-150ug -> 75.0-150.0 ug
+        Strong:
+          status: major_diff
+          diff: 175-225ug -> 150.0-450.0 ug
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs '
+      sublingual: New Route
+  LSZ:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 80ug -> 150.0 ug
+        Light:
+          status: missing_data
+          diff: 'Was: 100-150ug'
+        Strong:
+          status: new_data
+          diff: 'New: 300.0-450.0 ug'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: ug vs '
+      sublingual: New Route
+  MBDB:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 66.0-167.0 mg'
+        Light:
+          status: minor_diff
+          diff: 150-180mg -> 167.0-180.0 mg
+        Common:
+          status: minor_diff
+          diff: 180-210mg -> 180.0-250.0 mg
+        Strong:
+          status: major_diff
+          diff: 210-250mg+ -> 250.0-500.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 500.0+ mg'
+      insufflated: New Route
+  MCPP:
+    status: minor_diff
+    changes:
+      oral: New Route
+      insufflated: New Route
+  MDA:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 30.0-50.0 mg'
+        Light:
+          status: major_diff
+          diff: 30-40mg -> 50.0-100.0 mg
+        Common:
+          status: major_diff
+          diff: 40-80mg -> 100.0-125.0 mg
+        Strong:
+          status: major_diff
+          diff: 80-120mg -> 125.0-250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+      rectal: New Route
+  MDAI:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 20-40mg -> 25.0-50.0 mg
+        Light:
+          status: minor_diff
+          diff: 40-100mg -> 50.0-100.0 mg
+        Common:
+          status: minor_diff
+          diff: 100-150mg -> 100.0-200.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+  MDMA:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 7.0-50.0 mg'
+        Light:
+          status: minor_diff
+          diff: 40-75mg -> 50.0-80.0 mg
+        Common:
+          status: minor_diff
+          diff: 75-125mg -> 80.0-140.0 mg
+        Strong:
+          status: minor_diff
+          diff: 125-175mg -> 140.0-240.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 5.0-20.0 mg'
+        Light:
+          status: minor_diff
+          diff: 30-70mg -> 20.0-50.0 mg
+        Common:
+          status: minor_diff
+          diff: 70-120mg -> 50.0-100.0 mg
+        Strong:
+          status: major_diff
+          diff: 120-165mg -> 100.0-250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal:
+        Light:
+          status: missing_data
+          diff: 'Was: 30-70mg'
+        Common:
+          status: minor_diff
+          diff: 70-120mg -> 100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 120-165mg'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 165mg+'
+  MDPHP:
+    status: major_diff
+    changes:
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-20mg -> 20.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 20mg+'
+  MDPV:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 2-6mg -> 1.0 mg
+        Light:
+          status: major_diff
+          diff: 4-10mg -> 1.0-8.0 mg
+        Common:
+          status: minor_diff
+          diff: 8-15mg -> 8.0-20.0 mg
+        Strong:
+          status: major_diff
+          diff: 12-25mg -> 20.0-33.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 33.0+ mg'
+      smoked: New Route
+      sublingual: New Route
+      insufflated:
+        Threshold:
+          status: minor_diff
+          diff: 1-3mg -> 0.5-3.0 mg
+        Light:
+          status: minor_diff
+          diff: 2-5mg -> 3.0-5.0 mg
+        Strong:
+          status: minor_diff
+          diff: 10-20mg -> 10.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+  Melatonin:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-2.0 mg'
+        Light:
+          status: new_data
+          diff: 'New: 2.0-3.0 mg'
+        Common:
+          status: major_diff
+          diff: .3-1mg -> 3.0-8.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 8.0-15.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 15.0+ mg'
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  MEM:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 15mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 15-25mg'
+        Common:
+          status: minor_diff
+          diff: 25-35mg -> 15.0-48.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 35-45mg+.'
+  Mescaline:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 100mg -> 20.0-90.0 mg
+        Common:
+          status: minor_diff
+          diff: 200-300mg -> 200.0-400.0 mg
+        Strong:
+          status: minor_diff
+          diff: 300-500mg -> 400.0-700.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated: New Route
+      rectal: New Route
+  MET:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 10-20mg'
+        Common:
+          status: major_diff
+          diff: 20-25mg -> 15.0-90.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 25-30mg+'
+      insufflated: New Route
+  Metaxalone:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 400-800mg.'
+        Common:
+          status: minor_diff
+          diff: 800-1600mg. -> 400.0-1600.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 1600-2400mg.'
+  Methadone:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.0-10.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-20mg -> 10.0-60.0 mg
+        Strong:
+          status: major_diff
+          diff: 20-35mg+ -> 60.0-125.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 125.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  Methallylescaline:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 10-15mg -> 20.0 mg
+        Light:
+          status: minor_diff
+          diff: 15-25mg -> 20.0-30.0 mg
+        Common:
+          status: minor_diff
+          diff: 25-40mg -> 30.0-52.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 52.0-125.0 mg'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      rectal: New Route
+  Methamphetamine:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 10.0-20.0 mg
+        Common:
+          status: major_diff
+          diff: 10-30mg -> 20.0-100.0 mg
+        Strong:
+          status: major_diff
+          diff: 20-40mg -> 100.0-125.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      smoked:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.25-0.3 g'
+        Light:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Strong:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0-30.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-30mg -> 30.0-200.0 mg
+        Strong:
+          status: major_diff
+          diff: 30-50mg -> 200.0-250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  Methaqualone:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 200.0-250.0 mg'
+        Light:
+          status: major_diff
+          diff: 75-150mg -> 250.0-300.0 mg
+        Common:
+          status: major_diff
+          diff: 150-300mg -> 300.0 mg
+        Strong:
+          status: major_diff
+          diff: 300mg+ -> 300.0-1000.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 1000.0+ mg'
+      sublingual: New Route
+      insufflated: New Route
+  Methoxphenidine:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: minor_diff
+          diff: 30-50mg -> 37.0-40.0 mg
+        Light:
+          status: minor_diff
+          diff: 50-75mg -> 40.0-75.0 mg
+        Common:
+          status: minor_diff
+          diff: 75-120mg -> 75.0-100.0 mg
+        Strong:
+          status: minor_diff
+          diff: 120-150mg+ -> 100.0-150.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 150.0+ mg'
+      sublingual: New Route
+      insufflated: New Route
+  Methylone:
+    status: major_diff
+    changes:
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 20.0-50.0 mg'
+        Light:
+          status: minor_diff
+          diff: 100-150mg -> 50.0-100.0 mg
+        Common:
+          status: minor_diff
+          diff: 150-250mg -> 100.0-190.0 mg
+        Strong:
+          status: minor_diff
+          diff: 200-300mg -> 190.0-250.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      sublingual: New Route
+      insufflated: New Route
+  MiPT:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 2.0-20.0 mg
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 20.0-24.0 mg
+        Strong:
+          status: major_diff
+          diff: 15-25mg+ -> 24.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 40.0+ mg'
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 10.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-20mg+'
+  Moclobemide:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0-75.0 mg'
+        Light:
+          status: minor_diff
+          diff: 150mg -> 75.0-150.0 mg
+        Common:
+          status: minor_diff
+          diff: 300mg -> 150.0 mg
+        Strong:
+          status: major_diff
+          diff: 600mg. -> 150.0-300.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ mg'
+      sublingual: New Route
+  Modafinil:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 25.0-100.0 mg'
+        Common:
+          status: minor_diff
+          diff: 100-300mg -> 100.0-200.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 200.0-400.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 400.0+ mg'
+      sublingual: New Route
+      insufflated: New Route
+  Morphine:
+    status: minor_diff
+    changes:
+      iv: New Route
+  MT-45:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 30mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 30-45mg'
+        Common:
+          status: minor_diff
+          diff: 45-60mg -> 50.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 60mg+'
+  Mushrooms:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 0.4-1.0 g'
+        Light:
+          status: major_diff
+          diff: 0.5-1.5g -> 1.0-1.75 g
+        Common:
+          status: minor_diff
+          diff: 1.5-3.5g -> 1.75-3.5 g
+        Strong:
+          status: minor_diff
+          diff: 3.5g+ -> 3.5-5.0 g
+        Heavy:
+          status: new_data
+          diff: 'New: 5.0+ g'
+  Naproxen:
+    status: major_diff
+    changes:
+      oral:
+        Common:
+          status: major_diff
+          diff: 250-500mg -> 1000.0 mg
+  Nicotine:
+    status: minor_diff
+    changes:
+      iv: New Route
+      insufflated: New Route
+  Nimetazepam:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 2.5-5mg'
+        Common:
+          status: minor_diff
+          diff: 5-10mg -> 5.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10-20mg+'
+      sublingual: New Route
+  Noopept:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.5-10.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 5mg'
+        Common:
+          status: major_diff
+          diff: 10mg -> 10.0-30.0 mg
+        Strong:
+          status: major_diff
+          diff: 10-20mg+ -> 30.0-120.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 120.0+ mg'
+      sublingual:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-5mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 20.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10mg+'
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-5mg'
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 3.0-40.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10mg+'
+  O-Desmethyltramadol:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: major_diff
+          diff: 10-25mg -> 10.0-40.0 mg
+        Common:
+          status: major_diff
+          diff: 25-50mg -> 40.0-85.0 mg
+        Strong:
+          status: major_diff
+          diff: 50-100mg+ -> 85.0-130.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 130.0+ mg'
+      insufflated: New Route
+      iv: New Route
+  Opium:
+    status: major_diff
+    changes:
+      smoked:
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+      oral:
+        Common:
+          status: major_diff
+          diff: 333-500mg. -> 200.0 mg
+        Fatal:
+          status: missing_data
+          diff: 'Was: 2000mg'
+  Oxazepam:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-30mg -> 60.0-100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-45mg+'
+  Oxycodone:
+    status: major_diff
+    changes:
+      buccal: New Route
+      iv: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.5-5.0 mg'
+        Light:
+          status: major_diff
+          diff: 2.5-10mg -> 5.0-10.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-25mg -> 10.0-20.0 mg
+        Strong:
+          status: minor_diff
+          diff: 25-40mg -> 20.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 40.0+ mg'
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 2.5-5.0 mg'
+        Light:
+          status: major_diff
+          diff: 2.5-7.5mg -> 5.0-10.0 mg
+        Common:
+          status: major_diff
+          diff: 7.5-15mg -> 10.0-30.0 mg
+        Strong:
+          status: major_diff
+          diff: 15-25mg -> 30.0-60.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 60.0+ mg'
+      rectal: New Route
+  PCE:
+    status: minor_diff
+    changes:
+      oral: New Route
+  PCP:
+    status: major_diff
+    changes:
+      insufflated:
+        Light:
+          status: missing_data
+          diff: 'Was: 2-4mg'
+        Common:
+          status: major_diff
+          diff: 4-8mg -> 20.0-100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 8-15mg+'
+  Pentazocine:
+    status: minor_diff
+    changes:
+      oral: New Route
+  Pentedrone:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-15mg -> 41.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-25mg'
+      insufflated:
+        Threshold:
+          status: new_data
+          diff: 'New: 5.0 mg'
+        Light:
+          status: major_diff
+          diff: 2-5mg -> 5.0-10.0 mg
+        Common:
+          status: major_diff
+          diff: 5-10mg -> 10.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 20.0+ mg'
+  Pentylone:
+    status: minor_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 10-20mg'
+        Common:
+          status: minor_diff
+          diff: 20-40mg -> 10.0-30.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 40-80mg+'
+      insufflated: New Route
+  Peyote:
+    status: minor_diff
+    changes:
+      oral: New Route
+  Phenethylamine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 1.5 g'
+        Light:
+          status: new_data
+          diff: 'New: 1.5-3.0 g'
+        Common:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs g'
+        Strong:
+          status: new_data
+          diff: 'New: 3.6-9.0 g'
+        Heavy:
+          status: new_data
+          diff: 'New: 9.0+ g'
+  Phenobarbital:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 195.0 mg'
+        Light:
+          status: major_diff
+          diff: 50-100mg -> 195.0-240.0 mg
+        Common:
+          status: major_diff
+          diff: 100-150mg -> 240.0-300.0 mg
+        Strong:
+          status: major_diff
+          diff: 150-300mg -> 300.0-700.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 700.0+ mg'
+  Picamilon:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 40-80mg'
+        Common:
+          status: major_diff
+          diff: 80-140mg -> 350.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 140-250mg.'
+  Piracetam:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 400.0-800.0 mg'
+        Common:
+          status: minor_diff
+          diff: 1200-4800mg -> 800.0-2400.0 mg
+        Strong:
+          status: new_data
+          diff: 'New: 2400.0-4800.0 mg'
+        Heavy:
+          status: new_data
+          diff: 'New: 4800.0+ mg'
+  Pramiracetam:
+    status: major_diff
+    changes:
+      oral:
+        Common:
+          status: major_diff
+          diff: 400-1200mg -> 300.0-500.0 mg
+  PRL-8-53:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 2-3mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 3-5mg'
+        Common:
+          status: minor_diff
+          diff: 5-10mg -> 6.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 10-20mg+'
+  Prolintane:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 10-15'
+        Common:
+          status: major_diff
+          diff: 15-30mg -> 25.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 30-50mg+'
+  Proscaline:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: minor_diff
+          diff: 15-30mg -> 15.0-20.0 mg
+        Common:
+          status: minor_diff
+          diff: 30-40mg -> 20.0-30.0 mg
+        Strong:
+          status: major_diff
+          diff: 40-60mg -> 30.0-112.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 112.0+ mg'
+      insufflated: New Route
+  Psilocin:
+    status: major_diff
+    changes:
+      buccal: New Route
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 10.0 mg'
+        Light:
+          status: major_diff
+          diff: 5-10mg -> 10.0-12.0 mg
+        Common:
+          status: minor_diff
+          diff: 10-15mg -> 12.0-15.0 mg
+        Strong:
+          status: minor_diff
+          diff: 15-25mg -> 15.0-30.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 30.0+ mg'
+      im: New Route
+      rectal: New Route
+  Pyrazolam:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 1-2mg'
+        Common:
+          status: major_diff
+          diff: 2-3mg -> 0.5-5.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 3-4mg'
+      sublingual: New Route
+  Scopolamine:
+    status: minor_diff
+    changes:
+      oral: New Route
+      im: New Route
+  Tapentadol:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 25.0-37.5 mg'
+        Light:
+          status: major_diff
+          diff: 25-50mg -> 37.5-100.0 mg
+        Common:
+          status: major_diff
+          diff: 50-75mg -> 100.0-150.0 mg
+        Strong:
+          status: major_diff
+          diff: 75-150mg+ -> 150.0-300.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 300.0+ mg'
+      insufflated: New Route
+      iv: New Route
+      rectal: New Route
+  Tilidine:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 25-50mg'
+        Common:
+          status: major_diff
+          diff: 50-100mg -> 100.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 100-200mg.'
+  TMA-2:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 5-10mg -> 10.0-12.5 mg
+        Light:
+          status: minor_diff
+          diff: 10-20mg -> 12.5-30.0 mg
+        Common:
+          status: minor_diff
+          diff: 20-40mg -> 30.0-40.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 55.0+ mg'
+      insufflated: New Route
+  TMA-6:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: missing_data
+          diff: 'Was: 15-20mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 20-30mg'
+        Common:
+          status: major_diff
+          diff: 30-40mg -> 3.6-40.0 mg
+        Heavy:
+          status: missing_data
+          diff: 'Was: 40-50mg+'
+      rectal: New Route
+  U-47700:
+    status: major_diff
+    changes:
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-7.5mg'
+        Common:
+          status: major_diff
+          diff: 7.5-15mg -> 1.3-20.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 15-25mg'
+        Heavy:
+          status: missing_data
+          diff: 'Was: 25mg+'
+      insufflated: New Route
+  Pharms - Clonazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Zolpidem:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Dronabinol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Alprazolam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Sertraline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Citalopram:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methoxetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tabernanthe iboga:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Zopiclone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Harmaline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Amphetamines:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Fluoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Diazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamins - Choline 5 g vaporized Piracetam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DXM:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  AMT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 7.0-20.0 mg'
+        Light:
+          status: minor_diff
+          diff: 15-25mg -> 20.0-30.0 mg
+        Common:
+          status: minor_diff
+          diff: 25-40mg -> 30.0-50.0 mg
+        Strong:
+          status: major_diff
+          diff: 40-60mg -> 50.0-95.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+      smoked: New Route
+      sublingual: New Route
+      insufflated: New Route
+      rectal: New Route
+  Pharms - Buspirone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tryptophan:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Lisdexamfetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom repeated buccal Nicotine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Bupropion:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Nabilone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Banisteriopsis muricata:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DMT 5 g Syrian Rue:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Methylphenidate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly was very very very mild or placebo:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Syrian Rue:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-AMT:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 0.5-1mg -> 1.0-3.0 mg
+        Light:
+          status: major_diff
+          diff: 1-2mg -> 3.0-5.0 mg
+        Common:
+          status: major_diff
+          diff: 2-4mg -> 5.0-10.0 mg
+        Strong:
+          status: major_diff
+          diff: 4-6mg -> 10.0-15.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 15.0+ mg'
+      insufflated: New Route
+      rectal: New Route
+  Pharms - Promethazine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  bk-2C-B:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: major_diff
+          diff: 50-60mg -> 20.0-40.0 mg
+        Light:
+          status: new_data
+          diff: 'New: 40.0-80.0 mg'
+        Common:
+          status: minor_diff
+          diff: 80-100mg -> 80.0-150.0 mg
+        Strong:
+          status: major_diff
+          diff: 100-150mg -> 150.0-400.0 mg
+        Heavy:
+          status: major_diff
+          diff: 'Unit mismatch: mg vs '
+  Salvia divinorum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Gabapentin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tryptophan - 5-HTP:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-AcO-DALT Ginger:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  NBOMe Series:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Carisoprodol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Loperamide:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Theanine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Alcohol - Hard:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2-Fluoroamphetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ? ly and began waiting for it to take effect by reading through posts and participating
+    in some conversations, and telling my buddies about it in the wonderful PD Social
+    thread that I started years ago
+  : status: new_drug
+    msg: Drug not found in drugs.json
+  Etizolam 30 mg oral 4-HO-MiPT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Venlafaxine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Lamotrigine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Risperidone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Damiana:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Unknown:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-Fluoroamphetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Alcohol - Hard oral Amphetamines 30 mg oral Pharms - Amitriptyline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Valerian:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Tramadol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Ibuprofen:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Acetaminophen:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ? ''
+  : status: new_drug
+    msg: Drug not found in drugs.json
+  Banisteriopsis caapi:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom buccal Salvia divinorum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Phenylalanine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Products - Other:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamins - Choline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ', I feel I dosed more than I needed to':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Tianeptine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Quetiapine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Buprenorphine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Benzodiazepines:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Clonidine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly before swallowing the empty capsule:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Piracetam 1 g oral Aniracetam 400 mg oral Tryptophan - 5-HTP:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Mimosa tenuiflora:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Mirtazapine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDMA 2 hits oral Unknown:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Aripiprazole:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Lorazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  alpha-PHP:
+    status: major_diff
+    changes:
+      smoked: New Route
+      oral:
+        Light:
+          status: missing_data
+          diff: 'Was: 5-10mg'
+        Common:
+          status: major_diff
+          diff: 10-20mg -> 20.0-175.0 mg
+        Strong:
+          status: missing_data
+          diff: 'Was: 20-40mg+'
+      sublingual: New Route
+      insufflated: New Route
+  Psychotria viridis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Trazodone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DPT 80 mg oral 4-HO-MET:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ale to be more precise with this stuff:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Harmala Alkaloids:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DiPT repeated smoked Cannabis This was to be my first trip in:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Hydromorphone 60 mg oral Duloxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  3F-Phenmetrazine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Mushrooms - Panaeolus cyanescens:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Selegeline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  SSRIs:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Desvenlafaxine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Levothyroxine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Tranylcypromine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Lithium:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Milk Thistle:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-E vaporized Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cannabis - Hash:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-HO-MPT repeated inhaled Nitrous Oxide:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom oral Pharms - Ibuprofen:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Smarts - Phenibut:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Amphetamines - Substituted:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Passion Flower:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  L-DOPA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  N-Ethylhexedrone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  HOT-17:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Crack:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Heimia salicifolia:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Chlorpheniramine Maleate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ondansetron:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Rhodiola rosea:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Duloxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDMA 2 hits oral 25C-NBOMe:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Pregabalin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly Going into this experience I had had about 200mg of caffeine earlier, and I had also taken 2 small:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Escitalopram:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DXM insufflated Ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Divalproex:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Temazepam 4 cups oral Caffeine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Snorting the 2C-B-FLY was an idea I had to see if I could conserve material as well as to see:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  S-Ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharmaceuticals:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pseudoephedrine:
+    status: major_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 30.0-120.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 30-60mg.'
+        Common:
+          status: major_diff
+          diff: 60-90mg. -> 120.0-240.0 mg
+        Strong:
+          status: major_diff
+          diff: 90-120mg. -> 240.0-822.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 822.0+ mg'
+  Hordenine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly in case I received a wrong, much more potent substance:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Hydrocodone 30 mg oral Lisdexamfetamine smoked Cannabis 95 mg oral MIPT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Levetiracetam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Olanzapine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  T -21 hours Teva-Fluoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Lisdexamfetamine 1 g oral Smarts - Phenibut:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DXM 150 mg oral Diphenhydramine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Codeine 11 mg SC Morphine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Naltrexone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  racemic ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Esketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamins - Niacin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DMT smoked DMT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Loratadine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cannabis - High THC:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Clonazolam 1 line insufflated Methamphetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Escitalopram oral Kratom:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vortioxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Diphenhydramine 5 - 10 seeds oral Datura transdermal Scopolamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Memantine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Smarts - Phenibut 500 mg oral Valerian:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Caffeine oral Tryptophan - L-Tryptophan:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-AcO-DMT 400 mg oral Pharms - Phenytoin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MIPLA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly, either on the tail end of MDMA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Nutmeg:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Leonotis leonurus:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Atomoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2-Fluorodeschloroketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cannabidiol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly and took a swig of it also:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Mushrooms smoked Cannabis 2 hits oral 1P-LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-AcO-DMT 30 mg oral Codeine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  3-Chloroethcathinone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Quetiapine repeated smoked Cannabis Pharms - Quetiapine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2-Fluoromethamphetamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  hyalyuronic acid, then the same the next day:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Paroxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cannabis - High CBD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1cP-AL-LAD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  syringe, and insert around 5cm of the:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  TMA-2 repeated smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ', which was probably around 40-60':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly, which should:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1B-LSD repeated smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom Repeated hits smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Levofloxacin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tizanidine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Huperzine 45 mg oral Caffeine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methoxpropamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-AcO-MET oral Ginger:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  25E-NBOH:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MPT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-HO-MET 4-HO-MET:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Doxylamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Poppies - Opium:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Coffee:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Clonazolam 3 mg sublingual Clonazolam 1 mg insufflated Clonazolam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cloves:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamin B-6:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  3-Methyl-PCP:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom 200 mg oral Caffeine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  3-Methylmethcathinone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Propylhexedrine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Huperzine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamin C:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ? ly, with the expectation that it will be about twice as potent rectally as orally,
+    with possible differences in the nature of the effects
+  : status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Topiramate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-PrO-DMT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ephedrine 150 mg oral Diphenhydramine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tetrahydroharmine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Sceletium tortuosum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Armodafinil oral Coffee:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Tadalafil:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1V-LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-HO-MET smoked Cannabis - High THC:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1D-LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-AcO-MET Hypnagogic State:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  '- Mg L-threonate 1 g oral I first dropped the mianserin':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Baclofen:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ginger:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Eszopiclone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Harmine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Fentanyl:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  7-Hydroxymitragynine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1S-LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  1T-LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Quetiapine 5 drops oral 1,4-Butanediol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDPR:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Mushrooms repeated vaporized Cannabis - High CBD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDMA 20 mg smoked 5-MeO-DMT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ergoloid mesylates:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DXM 20 mg oral AMT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DXM insufflated Cocaine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  a while back:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  for my friend and 50mg IV for me:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDMA 30 mg insufflated 2C-T-7:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  TFMPP:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ', but I wonder how much my trip that time was affected by my very different setting':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ed:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Amitriptyline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  '- the effect was staggeringly different, and perfect for bed-time':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Catnip:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DPT 60 mg IM Ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DMT inhaled Nitrous Oxide:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DiPT oral Pharms - Bupropion:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  dose, but was also on Wellbutrin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Flunitrazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ovane:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Sildenafil:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DiPT 10 mg oral Pharms - Fluoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DPT was quite intense, strongly visual:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-B I took 15mg of Nexxus:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Morning Glory:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Melatonin Last night I took 400 mg of Valeriana Officinalis, 5 mg of melatonin, and 1 mg of Pyridoxine HCl:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Caffeine oral Alcohol - Hard:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  AMT 1 bowl smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Nefazodone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Anadenanthera colubrina:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Yohimbe:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ergoloid mesylates 750 mg oral Various 10 mg oral 2C-I:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Propranolol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ale:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  syringe:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methamphetamine The only thing I can comment on:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Lecithin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ginseng:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ginkgo biloba:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-AMT 1 hit oral LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Propoxyphene:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Tea:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Occasional cannabis throughout After not tripping for 10 years then suddenly having a great re-introductory experience:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-I 20 mg oral 4-AcO-DET:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-I smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ', 13 mg of DiPT hcl were':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Carbamazepine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Sassafras:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Butalbital:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vinpocetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Cyclobenzaprine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DiPT 2 hits inhaled Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Triazolam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  dosages:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DMAE:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Dexmethylphenidate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ergoloid mesylates 1600 mg oral Piracetam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Meperidine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DMT smoked Leonotis leonurus:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  AMT repeated smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Skullcap:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Hops:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cacti - columnar:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  AET:
+    status: minor_diff
+    changes:
+      oral:
+        Threshold:
+          status: new_data
+          diff: 'New: 50.0 mg'
+        Light:
+          status: missing_data
+          diff: 'Was: 80-100mg'
+        Common:
+          status: minor_diff
+          diff: 100-125mg -> 50.0-130.0 mg
+        Strong:
+          status: minor_diff
+          diff: 125-150mg+ -> 130.0-200.0 mg
+        Heavy:
+          status: new_data
+          diff: 'New: 200.0+ mg'
+      insufflated: New Route
+  Belladonna:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly before, and this trip was stronger, though not by much, so I would estimate I only felt the effects of about 10-15 mg:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DiPT 1 tablet insufflated MDMA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Temazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Lidocaine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Before I begin I have to say that this was my most powerful trip I have ever had to date:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  bk-MDEA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-I oral Pharms - Fluoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  bk-MBDB:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  3C-B:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Modafinil 150 mg oral Pharms - Venlafaxine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Fentanyl 75 mg oral Pharms - Tramadol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Diplopterys cabrerana:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Catuaba:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly relieves the physical, although the emotionally unstable my still have a bit of difficulty integrating:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Midazolam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ether:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Various:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DiPT 500 mg oral DXM:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Butalbital 80 mg oral Caffeine 60 mg oral Codeine 2 oral Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Hydroxyzine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Hydrocodon:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-T-7 smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Herbal Ecstasy:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Naloxone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Calamus:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-E repeated smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MeOPP:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Codeine I recently had the opportunity to join in on an excursion into the vast hyper-spatial realms of my:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Zaleplon:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-E 250 mg smoked Salvia divinorum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Ziprasidone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Piracetam oral Alcohol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ? Codeine Before I start I would like to say that my fixation with pharmaceutical
+    opiates will indeed influence this report, as I used to be hooked to methadone
+    and dextropropoxyphene
+  : status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Meclizine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Barbiturates:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Cannabis smoked Tobacco 30 mg oral Hydrocodone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly along with 10mg Valium, 1mg Ativan, and 1050mg Soma:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Wormwood:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  lead to bumping 50mg at least 3-4 times to get the same duration:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Brugmansia:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Oxymorphone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Desomorphine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Doxycycline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  CP 55,940:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Smarts - Phenibut oral Valerian:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MSM:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Haloperidol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Modafinil smoked Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DALT 50 mg oral Methylone 10 mg oral Pharms - Diazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDE:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methadone 5 mg oral Pharms - Alprazolam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  DMT 15 mg smoked 5-MeO-DMT 2 leaves buccal Salvia divinorum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Lorazepam 5 shots oral Alcohol - Hard:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Triprolidine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly 5-MeO-DiPT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ? Theanine 100 mg oral Tryptophan - 5-HTP 1000 mg oral Tryptophan 100 mg oral Phosphatidylserine
+    100 mg oral Ginseng 2000 mg oral Tea
+  : status: new_drug
+    msg: Drug not found in drugs.json
+  Tryptophan 200 mg oral Methylone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Lemon Balm:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-Methylmethcathinone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Kratom 1 glass oral Vitamin C:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  JWH-018:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Oxycodone 90 mg oral Codeine 25 mg oral Diphenhydramine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Smarts - Sulbutiamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Vitamin C 1 tablet sublingual MDMA:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Piracetam oral Mescaline:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly in a gel cap, 50 mg booster later, 100mg booster:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ly in a gel cap, 50 mg booster later, 100mgbooster:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-MeO-DALT oral Alcohol - Hard smoked JWH-018:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Ephedra sinica:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Piracetam 500 mg oral Citicoline 10 mg oral Amphetamines:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-E repeated smoked Cannabis 200 mg oral Pharms - Bupropion:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  AMT oral Alcohol oral Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Mianserin:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Chlorpromazine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-T-7 15 mg oral 2C-T-7 I am experienced with 2cb and have taken MDMA for about 20 years now:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDPV, Fentanyl:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Fluvoxamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  LSD 4 hits smoked Cannabis - Hash 2 lines insufflated Ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Phenazepam:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-HO-MPT 15mg vaporization 4-HO-MPT:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Piracetam 500 mg oral Theanine 500 mg oral Vitamins - Choline 200 mg insufflated Sceletium tortuosum:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Buprenorphine 125 ug sublingual Naloxone 10 g oral Kratom:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-TFM:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Propofol:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Codeine 1 cup oral Cannabis:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methiopropamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  BDB:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  ', 8 mg rectal':
+    status: new_drug
+    msg: Drug not found in drugs.json
+  yet:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  2C-I trip:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Coca:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Methoxetamine 2 hits oral LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Opium 250 mg oral Hydrocodone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  It was a Friday night, and I:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  MDMA After 6 hours of an MDMA trip:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Modafinil oral LSD:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Turbina corymbosa:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Pharms - Metaxalone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Bismuth Subsalicylate:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  4-Methylethcathinone:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  5-IT 20mg:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Etizolam 40 mg oral Pharms - Fluoxetine:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  The MDAI was purchased online from the Netherlands:
+    status: new_drug
+    msg: Drug not found in drugs.json
+  Opium 400 mg insufflated Ketamine:
+    status: new_drug
+    msg: Drug not found in drugs.json
